@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme colors -->
+    <color name="primary">#FFBB86FC</color>
+    <color name="primary_dark">#FF3700B3</color>
+    <color name="secondary">#FF03DAC6</color>
+    <color name="secondary_dark">#FF018786</color>
+    
+    <color name="background">#FF121212</color>
+    <color name="background_dark">#FF121212</color>
+    <color name="surface">#FF121212</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    <color name="on_surface">#FFFFFFFF</color>
+    
+    <color name="error">#FFCF6679</color>
+    <color name="error_dark">#FFCF6679</color>
+    <color name="on_error">#FF000000</color>
+    
+    <color name="text_primary">#DEFFFFFF</color>
+    <color name="text_primary_dark">#DEFFFFFF</color>
+    <color name="text_secondary">#99FFFFFF</color>
+    <color name="text_secondary_dark">#99FFFFFF</color>
+    
+    <!-- Common colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF757575</color>
+    <color name="light_gray">#FF424242</color>
+    
+    <!-- Status colors -->
+    <color name="success">#FF81C784</color>
+    <color name="warning">#FFFFB74D</color>
+    <color name="info">#FF64B5F6</color>
+    
+    <!-- Material Design colors (dark theme variants) -->
+    <color name="red">#FFEF5350</color>
+    <color name="pink">#FFF48FB1</color>
+    <color name="purple">#FFCE93D8</color>
+    <color name="deep_purple">#FFB39DDB</color>
+    <color name="indigo">#FF9FA8DA</color>
+    <color name="blue">#FF90CAF9</color>
+    <color name="light_blue">#FF81D4FA</color>
+    <color name="cyan">#FF80DEEA</color>
+    <color name="teal">#FF80CBC4</color>
+    <color name="green">#FFA5D6A7</color>
+    <color name="light_green">#FFC5E1A5</color>
+    <color name="lime">#FFE6EE9C</color>
+    <color name="yellow">#FFFFF59D</color>
+    <color name="amber">#FFFFE082</color>
+    <color name="orange">#FFFFCC80</color>
+    <color name="deep_orange">#FFFFAB91</color>
+    <color name="brown">#FFBCAAA4</color>
+    <color name="grey">#FFBDBDBD</color>
+    <color name="blue_grey">#FF90A4AE</color>
+    
+    <!-- Component colors -->
+    <color name="ripple_color">#33FFFFFF</color>
+    <color name="card_background">#1E1E1E</color>
+    <color name="card_stroke">#424242</color>
+    <color name="divider">#424242</color>
+    <color name="placeholder">#757575</color>
+    <color name="success_background">#1B5E20</color>
+</resources> 

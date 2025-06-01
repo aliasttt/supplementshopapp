@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_add_product"
+        android:title="Yeni Ürün Ekle"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_view_orders"
+        android:title="Siparişleri Görüntüle"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_view_users"
+        android:title="Kullanıcıları Görüntüle"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        app:showAsAction="ifRoom" />
+</menu> 

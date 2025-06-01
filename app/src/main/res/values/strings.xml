@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alışveriş Uygulaması</string>
+    
+    <!-- Login & Register -->
+    <string name="login">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="email">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="forgot_password">Şifreni mi unuttun?</string>
+    <string name="dont_have_account">Hesabınız yok mu?</string>
+    <string name="already_have_account">Zaten bir hesabınız var mı?</string>
+    
+    <!-- Main Menu -->
+    <string name="menu_home">Ana Sayfa</string>
+    <string name="menu_categories">Kategoriler</string>
+    <string name="menu_cart">Sepetim</string>
+    <string name="menu_profile">Profilim</string>
+    <string name="menu_logout">Çıkış Yap</string>
+    <string name="menu_admin">Yönetim Paneli</string>
+    <string name="menu_settings">Ayarlar</string>
+    
+    <!-- Product -->
+    <string name="buy_now">Şimdi Al</string>
+    <string name="product_details">Ürün Detayları</string>
+    <string name="price">Fiyat</string>
+    <string name="stock">Stok: %d</string>
+    <string name="description">Açıklama: %s</string>
+    <string name="add_to_cart">Sepete Ekle</string>
+    <string name="product_description">Ürün Açıklaması</string>
+    <string name="quantity">Adet: %d</string>
+    <string name="category">Kategori: %s</string>
+    
+    <!-- Cart -->
+    <string name="cart">Sepetim</string>
+    <string name="empty_cart">Sepetiniz boş</string>
+    <string name="cart_total">Toplam: %1$.2f TL</string>
+    <string name="checkout">Ödemeye Geç</string>
+    <string name="remove_item">Öğeyi Kaldır</string>
+    <string name="remove_from_cart">Sepetten Çıkar</string>
+    <string name="total_price">Toplam Tutar: %1$.2f TL</string>
+    <string name="decrease_quantity">Miktarı Azalt</string>
+    <string name="increase_quantity">Miktarı Artır</string>
+    
+    <!-- Checkout -->
+    <string name="shipping_info">Kargo Bilgileri</string>
+    <string name="shipping_address">Kargo Adresi</string>
+    <string name="payment_info">Ödeme Bilgileri</string>
+    <string name="payment_method">Ödeme Yöntemi</string>
+    <string name="order_summary">Sipariş Özeti</string>
+    <string name="place_order">Sipariş Ver</string>
+    
+    <!-- Order Confirmation -->
+    <string name="order_success">Siparişiniz başarıyla tamamlandı</string>
+    <string name="order_confirmed">Sipariş Onaylandı</string>
+    <string name="order_number">Sipariş #%s</string>
+    <string name="order_date">Sipariş Tarihi: %s</string>
+    <string name="order_status">Durum: %s</string>
+    <string name="order_total">Toplam Tutar</string>
+    
+    <!-- Admin -->
+    <string name="admin_panel">Yönetim Paneli</string>
+    <string name="add_product">Ürün Ekle</string>
+    <string name="edit_product">Ürünü Düzenle</string>
+    <string name="delete_product">Ürünü Sil</string>
+    <string name="product_name">Ürün Adı</string>
+    <string name="product_price">Fiyat: %1$.2f</string>
+    <string name="product_stock">Stok: %d</string>
+    <string name="product_category">Kategori</string>
+    <string name="product_image">Resim URL</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="user_panel">Kullanıcı Paneli</string>
+    
+    <!-- Messages -->
+    <string name="error_required">Bu alan zorunludur</string>
+    <string name="error_invalid_email">Geçersiz e-posta adresi</string>
+    <string name="error_invalid_password">Şifre en az 6 karakter olmalıdır</string>
+    <string name="error_passwords_dont_match">Şifreler eşleşmiyor</string>
+    <string name="error_login">Giriş başarısız</string>
+    <string name="error_register">Kayıt başarısız</string>
+    <string name="error_add_to_cart">Sepete ekleme hatası</string>
+    <string name="error_checkout">Ödeme hatası</string>
+    <string name="success_add_to_cart">Ürün sepete eklendi</string>
+    <string name="success_checkout">Sipariş başarıyla tamamlandı</string>
+    <string name="success_saved">Başarıyla kaydedildi</string>
+    <string name="success_deleted">Başarıyla silindi</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Profilim</string>
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="my_orders">Siparişlerim</string>
+    <string name="settings">Ayarlar</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="profile">Profilim</string>
+    
+    <!-- Common -->
+    <string name="loading">Yükleniyor…</string>
+    <string name="error">Hata</string>
+    <string name="success">Başarılı</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="action_logout">Çıkış Yap</string>
+    <string name="search">Ara</string>
+    <string name="about">Hakkımızda</string>
+    <string name="help">Yardım</string>
+    <string name="contact">İletişim</string>
+    <string name="terms">Kullanım Koşulları</string>
+    <string name="privacy">Gizlilik Politikası</string>
+    <string name="version">Versiyon %s</string>
+    <string name="copyright">© 2024 Shopping App. Tüm hakları saklıdır.</string>
+    <string name="ok">Tamam</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+</resources> 

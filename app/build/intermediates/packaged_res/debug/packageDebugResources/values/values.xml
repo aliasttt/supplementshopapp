@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amber">#FFFFC107</color>
+    <color name="background">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="blue_grey">#FF607D8B</color>
+    <color name="brown">#FF795548</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E0E0E0</color>
+    <color name="colorAccent">@color/secondary</color>
+    <color name="colorPrimary">@color/primary</color>
+    <color name="colorPrimaryDark">@color/primary_dark</color>
+    <color name="cyan">#FF00BCD4</color>
+    <color name="deep_orange">#FFFF5722</color>
+    <color name="deep_purple">#FF673AB7</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="error">#FFB00020</color>
+    <color name="gray">#FF757575</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="grey">#FF9E9E9E</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="indigo">#FF3F51B5</color>
+    <color name="info">#FF2196F3</color>
+    <color name="light_blue">#FF03A9F4</color>
+    <color name="light_gray">#FFEEEEEE</color>
+    <color name="light_green">#FF8BC34A</color>
+    <color name="lime">#FFCDDC39</color>
+    <color name="on_error">#FFFFFFFF</color>
+    <color name="on_surface">#000000</color>
+    <color name="orange">#FFFF9800</color>
+    <color name="pink">#FFE91E63</color>
+    <color name="placeholder">#BDBDBD</color>
+    <color name="primary">#FF6200EE</color>
+    <color name="primary_dark">#FF3700B3</color>
+    <color name="purple">#FF9C27B0</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FFF44336</color>
+    <color name="ripple_color">#33000000</color>
+    <color name="secondary">#FF03DAC5</color>
+    <color name="secondary_dark">#FF018786</color>
+    <color name="success">#FF4CAF50</color>
+    <color name="success_background">#E8F5E9</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="teal">#FF009688</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#99000000</color>
+    <color name="warning">#FFFFC107</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <dimen name="bottom_nav_elevation">8dp</dimen>
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="corner_radius_large">16dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_xlarge">24dp</dimen>
+    <dimen name="elevation_large">8dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="elevation_xlarge">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_mini_size">40dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="grid_item_height">200dp</dimen>
+    <dimen name="grid_item_width">160dp</dimen>
+    <dimen name="grid_spacing">8dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="image_size_large">128dp</dimen>
+    <dimen name="image_size_medium">96dp</dimen>
+    <dimen name="image_size_small">64dp</dimen>
+    <dimen name="image_size_xlarge">256dp</dimen>
+    <dimen name="input_height">56dp</dimen>
+    <dimen name="list_divider_height">1dp</dimen>
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_xlarge">24dp</dimen>
+    <dimen name="text_size_headline">28sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xxlarge">20sp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <string name="about">Hakkımızda</string>
+    <string name="action_logout">Çıkış Yap</string>
+    <string name="add_product">Ürün Ekle</string>
+    <string name="add_to_cart">Sepete Ekle</string>
+    <string name="admin_panel">Yönetim Paneli</string>
+    <string name="already_have_account">Zaten bir hesabınız var mı?</string>
+    <string name="app_name">Alışveriş Uygulaması</string>
+    <string name="buy_now">Şimdi Al</string>
+    <string name="cancel">İptal</string>
+    <string name="cart">Sepetim</string>
+    <string name="cart_total">Toplam: %1$.2f TL</string>
+    <string name="category">Kategori: %s</string>
+    <string name="checkout">Ödemeye Geç</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="contact">İletişim</string>
+    <string name="copyright">© 2024 Shopping App. Tüm hakları saklıdır.</string>
+    <string name="decrease_quantity">Miktarı Azalt</string>
+    <string name="default_web_client_id" translatable="false">109876543210-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com</string>
+    <string name="delete">Sil</string>
+    <string name="delete_product">Ürünü Sil</string>
+    <string name="description">Açıklama: %s</string>
+    <string name="dont_have_account">Hesabınız yok mu?</string>
+    <string name="edit">Düzenle</string>
+    <string name="edit_product">Ürünü Düzenle</string>
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="email">E-posta</string>
+    <string name="empty_cart">Sepetiniz boş</string>
+    <string name="error">Hata</string>
+    <string name="error_add_to_cart">Sepete ekleme hatası</string>
+    <string name="error_checkout">Ödeme hatası</string>
+    <string name="error_invalid_email">Geçersiz e-posta adresi</string>
+    <string name="error_invalid_password">Şifre en az 6 karakter olmalıdır</string>
+    <string name="error_login">Giriş başarısız</string>
+    <string name="error_passwords_dont_match">Şifreler eşleşmiyor</string>
+    <string name="error_register">Kayıt başarısız</string>
+    <string name="error_required">Bu alan zorunludur</string>
+    <string name="firebase_database_url" translatable="false">https://shopping-app-12345.firebaseio.com</string>
+    <string name="forgot_password">Şifreni mi unuttun?</string>
+    <string name="gcm_defaultSenderId" translatable="false">109876543210</string>
+    <string name="google_api_key" translatable="false">AIzaSyD1234567890abcdefghijklmnopqrstuvwxyz</string>
+    <string name="google_app_id" translatable="false">1:109876543210:android:1234567890abcdef</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD1234567890abcdefghijklmnopqrstuvwxyz</string>
+    <string name="google_storage_bucket" translatable="false">shopping-app-12345.appspot.com</string>
+    <string name="help">Yardım</string>
+    <string name="increase_quantity">Miktarı Artır</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="login">Giriş Yap</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="menu_admin">Yönetim Paneli</string>
+    <string name="menu_cart">Sepetim</string>
+    <string name="menu_categories">Kategoriler</string>
+    <string name="menu_home">Ana Sayfa</string>
+    <string name="menu_logout">Çıkış Yap</string>
+    <string name="menu_profile">Profilim</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="my_orders">Siparişlerim</string>
+    <string name="no">Hayır</string>
+    <string name="ok">Tamam</string>
+    <string name="order_confirmed">Sipariş Onaylandı</string>
+    <string name="order_date">Sipariş Tarihi: %s</string>
+    <string name="order_number">Sipariş #%s</string>
+    <string name="order_status">Durum: %s</string>
+    <string name="order_success">Siparişiniz başarıyla tamamlandı</string>
+    <string name="order_summary">Sipariş Özeti</string>
+    <string name="order_total">Toplam Tutar</string>
+    <string name="password">Şifre</string>
+    <string name="payment_info">Ödeme Bilgileri</string>
+    <string name="payment_method">Ödeme Yöntemi</string>
+    <string name="place_order">Sipariş Ver</string>
+    <string name="price">Fiyat</string>
+    <string name="privacy">Gizlilik Politikası</string>
+    <string name="product_category">Kategori</string>
+    <string name="product_description">Ürün Açıklaması</string>
+    <string name="product_details">Ürün Detayları</string>
+    <string name="product_image">Resim URL</string>
+    <string name="product_name">Ürün Adı</string>
+    <string name="product_price">Fiyat: %1$.2f</string>
+    <string name="product_stock">Stok: %d</string>
+    <string name="profile">Profilim</string>
+    <string name="profile_title">Profilim</string>
+    <string name="project_id" translatable="false">shopping-app-12345</string>
+    <string name="quantity">Adet: %d</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="remove_from_cart">Sepetten Çıkar</string>
+    <string name="remove_item">Öğeyi Kaldır</string>
+    <string name="save">Kaydet</string>
+    <string name="search">Ara</string>
+    <string name="settings">Ayarlar</string>
+    <string name="shipping_address">Kargo Adresi</string>
+    <string name="shipping_info">Kargo Bilgileri</string>
+    <string name="stock">Stok: %d</string>
+    <string name="success">Başarılı</string>
+    <string name="success_add_to_cart">Ürün sepete eklendi</string>
+    <string name="success_checkout">Sipariş başarıyla tamamlandı</string>
+    <string name="success_deleted">Başarıyla silindi</string>
+    <string name="success_saved">Başarıyla kaydedildi</string>
+    <string name="terms">Kullanım Koşulları</string>
+    <string name="total_price">Toplam Tutar: %1$.2f TL</string>
+    <string name="user_panel">Kullanıcı Paneli</string>
+    <string name="version">Versiyon %s</string>
+    <string name="yes">Evet</string>
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="TextAppearance.App.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="TextAppearance.App.Headline" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="TextAppearance.App.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="Theme.ShoppingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
+    </style>
+    <style name="ThemeOverlay.ShoppingApp" parent="ThemeOverlay.MaterialComponents">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+    </style>
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="Widget.App.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="Widget.App.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+    <style name="Widget.ShoppingApp" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.ShoppingApp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Badge" parent="Widget.MaterialComponents.Badge">
+        <item name="android:background">@color/error</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Widget.ShoppingApp.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/primary</item>
+        <item name="itemTextColor">@color/primary</item>
+        <item name="itemRippleColor">@color/primary</item>
+        <item name="elevation">8dp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.ShoppingApp.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+    <style name="Widget.ShoppingApp.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/light_gray</item>
+    </style>
+    <style name="Widget.ShoppingApp.ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">@color/primary</item>
+    </style>
+    <style name="Widget.ShoppingApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.1" type="incidents">
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_bold` should not reference itself">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/font/roboto_bold.xml"
+            line="5"
+            column="9"
+            startOffset="190"
+            endLine="5"
+            endColumn="41"
+            endOffset="222"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_bold` should not reference itself">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/font/roboto_bold.xml"
+            line="5"
+            column="9"
+            startOffset="190"
+            endLine="5"
+            endColumn="41"
+            endOffset="222"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_bold` should not reference itself">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/font/roboto_bold.xml"
+            line="8"
+            column="9"
+            startOffset="302"
+            endLine="8"
+            endColumn="37"
+            endOffset="330"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_regular` should not reference itself">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/font/roboto_regular.xml"
+            line="5"
+            column="9"
+            startOffset="190"
+            endLine="5"
+            endColumn="44"
+            endOffset="225"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_regular` should not reference itself">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/font/roboto_regular.xml"
+            line="5"
+            column="9"
+            startOffset="190"
+            endLine="5"
+            endColumn="44"
+            endOffset="225"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_regular` should not reference itself">
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/font/roboto_regular.xml"
+            line="8"
+            column="9"
+            startOffset="305"
+            endLine="8"
+            endColumn="40"
+            endOffset="336"/>
+    </incident>
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The color &quot;background_dark&quot; in values-night has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement=""
+            priority="0">
+            <range
+                file="${:app*release*MAIN*sourceProvider*0*resDir*0}/values-night/colors.xml"
+                startOffset="243"
+                endOffset="288"/>
+        </fix-replace>
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/values-night/colors.xml"
+            line="7"
+            column="12"
+            startOffset="250"
+            endLine="7"
+            endColumn="34"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The color &quot;surface_dark&quot; in values-night has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement=""
+            priority="0">
+            <range
+                file="${:app*release*MAIN*sourceProvider*0*resDir*0}/values-night/colors.xml"
+                startOffset="294"
+                endOffset="336"/>
+        </fix-replace>
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/values-night/colors.xml"
+            line="8"
+            column="12"
+            startOffset="301"
+            endLine="8"
+            endColumn="31"
+            endOffset="320"/>
+    </incident>
+
+    <incident
+        id="ExtraTranslation"
+        severity="fatal"
+        message="&quot;cart_empty&quot; is translated here but not found in default locale">
+        <fix-replace
+            description="Remove translation"
+            replacement=""
+            priority="0">
+            <range
+                file="${:app*release*MAIN*sourceProvider*0*resDir*0}/values-tr/strings.xml"
+                startOffset="630"
+                endOffset="678"/>
+        </fix-replace>
+        <location
+            file="${:app*release*MAIN*sourceProvider*0*resDir*0}/values-tr/strings.xml"
+            line="18"
+            column="13"
+            startOffset="638"
+            endLine="18"
+            endColumn="30"
+            endOffset="655"/>
+    </incident>
+
+</incidents>

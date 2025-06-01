@@ -1,0 +1,1469 @@
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\adapters\CartAdapter.java:72: Error: Unexpected implicit cast to Button: layout tag was ImageButton [WrongViewCast]
+            removeButton = itemView.findViewById(R.id.removeButton);
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "WrongViewCast":
+   Keeps track of the view types associated with ids and if it finds a usage
+   of the id in the Java code it ensures that it is treated as the same type.
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_bold.xml:5: Error: Font roboto_bold should not reference itself [ResourceCycle]
+        android:font="@font/roboto_bold"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_bold.xml:5: Error: Font roboto_bold should not reference itself [ResourceCycle]
+        android:font="@font/roboto_bold"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_bold.xml:8: Error: Font roboto_bold should not reference itself [ResourceCycle]
+        app:font="@font/roboto_bold"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_regular.xml:5: Error: Font roboto_regular should not reference itself [ResourceCycle]
+        android:font="@font/roboto_regular"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_regular.xml:5: Error: Font roboto_regular should not reference itself [ResourceCycle]
+        android:font="@font/roboto_regular"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_regular.xml:8: Error: Font roboto_regular should not reference itself [ResourceCycle]
+        app:font="@font/roboto_regular"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ResourceCycle":
+   There should be no cycles in resource definitions as this can lead to
+   runtime exceptions.
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\adapters\AdminProductAdapter.java:104: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+            productStock.setText(String.format("موجودی: %d", product.getStockQuantity()));
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\activities\CartActivity.java:71: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        totalPriceText.setText(String.format("مجموع: $%.2f", total));
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\adapters\CartAdapter.java:77: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+            productPrice.setText(String.format("$%.2f", item.getProductPrice()));
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\activities\CheckoutActivity.java:47: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        totalPriceText.setText(String.format("مجموع: %,.0f تومان", cartManager.getTotalPrice()));
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\activities\OrderConfirmationActivity.java:60: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                    totalAmountText.setText(String.format("مبلغ کل: %,.0f تومان", 
+                                            ^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\activities\PaymentActivity.java:63: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        amountTextView.setText(String.format("مبلغ قابل پرداخت: %.2f تومان", totalAmount));
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\adapters\ProductAdapter.java:51: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        holder.priceText.setText(String.format("%,.0f تومان", product.getPrice()));
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\activities\ProductDetailActivity.java:103: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        priceText.setText(String.format("قیمت: %,.0f تومان", product.getPrice()));
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\activities\ProductDetailActivity.java:105: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        stockText.setText(String.format("موجودی: %d عدد", product.getStockQuantity()));
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DefaultLocale":
+   Calling String#toLowerCase() or #toUpperCase() without specifying an
+   explicit locale is a common source of bugs. The reason for that is that
+   those methods will use the current locale on the user's device, and even
+   though the code appears to work correctly when you are developing the app,
+   it will fail in some locales. For example, in the Turkish locale, the
+   uppercase replacement for i is not I.
+
+   If you want the methods to just perform ASCII replacement, for example to
+   convert an enum name, call String#toUpperCase(Locale.ROOT) instead. If you
+   really want to use the current locale, call
+   String#toUpperCase(Locale.getDefault()) instead.
+
+   https://developer.android.com/reference/java/util/Locale.html#default_locale
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values-night\colors.xml:7: Error: The color "background_dark" in values-night has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
+    <color name="background_dark">#121212</color>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values-night\colors.xml:8: Error: The color "surface_dark" in values-night has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
+    <color name="surface_dark">#1E1E1E</color>
+           ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "MissingDefaultResource":
+   If a resource is only defined in folders with qualifiers like -land or -en,
+   and there is no default declaration in the base folder (layout or values
+   etc), then the app will crash if that resource is accessed on a device
+   where the device is in a configuration missing the given qualifier.
+
+   As a special case, drawables do not have to be specified in the base
+   folder; if there is a match in a density folder (such as drawable-mdpi)
+   that image will be used and scaled. Note however that if you  only specify
+   a drawable in a folder like drawable-en-hdpi, the app will crash in
+   non-English locales.
+
+   There may be scenarios where you have a resource, such as a -fr drawable,
+   which is only referenced from some other resource with the same qualifiers
+   (such as a -fr style), which itself has safe fallbacks. However, this still
+   makes it possible for somebody to accidentally reference the drawable and
+   crash, so it is safer to create a default fallback in the base folder.
+   Alternatively, you can suppress the issue by adding
+   tools:ignore="MissingDefaultResource" on the element.
+
+   (This scenario frequently happens with string translations, where you might
+   delete code and the corresponding resources, but forget to delete a
+   translation. There is a dedicated issue id for that scenario, with the id
+   ExtraTranslation.)
+
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:14: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 34
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\iran_sans.xml:5: Warning: Attribute fontStyle is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:fontStyle="normal"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\iran_sans.xml:6: Warning: Attribute fontWeight is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:fontWeight="400"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\iran_sans.xml:7: Warning: Attribute font is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:font="@font/roboto_regular"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\iran_sans.xml:12: Warning: Attribute fontStyle is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:fontStyle="normal"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\iran_sans.xml:13: Warning: Attribute fontWeight is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:fontWeight="700"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\iran_sans.xml:14: Warning: Attribute font is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:font="@font/roboto_bold"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_bold.xml:5: Warning: Attribute font is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:font="@font/roboto_bold"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_bold.xml:6: Warning: Attribute fontStyle is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:fontStyle="normal"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_bold.xml:7: Warning: Attribute fontWeight is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:fontWeight="700"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_regular.xml:5: Warning: Attribute font is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:font="@font/roboto_regular"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_regular.xml:6: Warning: Attribute fontStyle is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:fontStyle="normal"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\font\roboto_regular.xml:7: Warning: Attribute fontWeight is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:fontWeight="400"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedAttribute":
+   This check finds attributes set in XML files that were introduced in a
+   version newer than the oldest version targeted by your application (with
+   the minSdkVersion attribute).
+
+   This is not an error; the application will simply ignore the attribute.
+   However, if the attribute is important to the appearance or functionality
+   of your application, you should consider finding an alternative way to
+   achieve the same result with only available attributes, and then you can
+   optionally create a copy of the layout in a layout-vNN folder which will be
+   used on API NN or higher where you can take advantage of the newer
+   attribute.
+
+   Note: This check does not only apply to attributes. For example, some tags
+   can be unused too, such as the new <tag> element in layouts introduced in
+   API 21.
+
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:50: Warning: A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.16.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.10.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:51: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:52: Warning: A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.11.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:53: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:56: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.1 [GradleDependency]
+    implementation "androidx.room:room-runtime:$room_version"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:58: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.7.1 [GradleDependency]
+    implementation "androidx.room:room-ktx:$room_version"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:61: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel than 2.6.1 is available: 2.9.0 [GradleDependency]
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:62: Warning: A newer version of androidx.lifecycle:lifecycle-livedata than 2.6.1 is available: 2.9.0 [GradleDependency]
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:63: Warning: A newer version of androidx.lifecycle:lifecycle-common-java8 than 2.6.1 is available: 2.9.0 [GradleDependency]
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:64: Warning: A newer version of androidx.lifecycle:lifecycle-runtime than 2.6.1 is available: 2.9.0 [GradleDependency]
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:67: Warning: A newer version of androidx.recyclerview:recyclerview than 1.3.0 is available: 1.4.0 [GradleDependency]
+    implementation 'androidx.recyclerview:recyclerview:1.3.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:85: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:86: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:89: Warning: A newer version of com.google.firebase:firebase-bom than 32.7.0 is available: 33.14.0 [GradleDependency]
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:90: Warning: A newer version of com.google.firebase:firebase-analytics than 21.5.0 is available: 22.4.0 [GradleDependency]
+    implementation 'com.google.firebase:firebase-analytics:21.5.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:91: Warning: A newer version of com.google.firebase:firebase-auth than 22.3.1 is available: 23.2.1 [GradleDependency]
+    implementation 'com.google.firebase:firebase-auth:22.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:92: Warning: A newer version of com.google.firebase:firebase-firestore than 24.10.1 is available: 25.1.4 [GradleDependency]
+    implementation 'com.google.firebase:firebase-firestore:24.10.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:93: Warning: A newer version of com.google.firebase:firebase-storage than 20.3.0 is available: 21.0.2 [GradleDependency]
+    implementation 'com.google.firebase:firebase-storage:20.3.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_order_confirmation.xml:36: Error: Must use app:tint instead of android:tint [UseAppTint from androidx.appcompat]
+            android:tint="@android:color/holo_green_dark"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseAppTint":
+   ImageView or ImageButton uses android:tint instead of app:tint
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values-tr\strings.xml:12: Error: Inconsistent formatting types for argument #1 in format string product_price ('%1$s'): Found both 's' here and 'f' in values/strings.xml [StringFormatMatches]
+    <string name="product_price">Fiyat: %1$s TL</string>
+                                        ~~~~
+    C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:68: Conflicting argument type (`f') here
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values-tr\strings.xml:19: Error: Inconsistent formatting types for argument #1 in format string cart_total ('%1$s'): Found both 's' here and 'f' in values/strings.xml [StringFormatMatches]
+    <string name="cart_total">Toplam: %1$s TL</string>
+                                      ~~~~
+    C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:38: Conflicting argument type (`f') here
+
+   Explanation for issues of type "StringFormatMatches":
+   This lint check ensures the following:
+   (1) If there are multiple translations of the format string, then all
+   translations use the same type for the same numbered arguments
+   (2) The usage of the format string in Java is consistent with the format
+   string, meaning that the parameter types passed to String.format matches
+   those in the format string.
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:6: Error: "login" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="login">Login</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:7: Error: "register" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="register">Register</string>
+            ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:8: Error: "email" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="email">Email</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:9: Error: "password" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="password">Password</string>
+            ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:10: Error: "confirm_password" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="confirm_password">Confirm Password</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:11: Error: "forgot_password" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="forgot_password">Forgot Password?</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:12: Error: "dont_have_account" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="dont_have_account">Don\'t have an account?</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:13: Error: "already_have_account" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="already_have_account">Already have an account?</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:20: Error: "menu_logout" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="menu_logout">Logout</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:21: Error: "menu_admin" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="menu_admin">Admin Panel</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:22: Error: "menu_settings" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="menu_settings">Settings</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:25: Error: "buy_now" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="buy_now">Buy Now</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:26: Error: "product_details" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="product_details">Product Details</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:27: Error: "price" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="price">$%.2f</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:28: Error: "stock" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="stock">Stock: %d</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:29: Error: "description" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="description">Description: %s</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:33: Error: "category" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="category">Category: %s</string>
+            ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:36: Error: "cart" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="cart">Cart</string>
+            ~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:37: Error: "empty_cart" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="empty_cart">Your cart is empty</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:41: Error: "remove_from_cart" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="remove_from_cart">Remove from Cart</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:42: Error: "total_price" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="total_price">Total: $%.2f</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:43: Error: "decrease_quantity" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="decrease_quantity">Decrease quantity</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:44: Error: "increase_quantity" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="increase_quantity">Increase quantity</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:47: Error: "shipping_info" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="shipping_info">Shipping Information</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:48: Error: "shipping_address" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="shipping_address">Shipping Address</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:49: Error: "payment_info" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="payment_info">Payment Information</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:50: Error: "payment_method" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="payment_method">Payment Method</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:51: Error: "order_summary" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="order_summary">Order Summary</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:52: Error: "place_order" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="place_order">Place Order</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:55: Error: "order_success" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="order_success">Your order has been placed successfully</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:56: Error: "order_confirmed" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="order_confirmed">Order Confirmed</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:57: Error: "order_number" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="order_number">Order #%s</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:58: Error: "order_date" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="order_date">Order Date: %s</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:59: Error: "order_status" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="order_status">Status: %s</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:60: Error: "order_total" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="order_total">Total Amount</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:63: Error: "admin_panel" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="admin_panel">Admin Panel</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:64: Error: "add_product" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="add_product">Add Product</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:65: Error: "edit_product" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="edit_product">Edit Product</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:66: Error: "delete_product" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="delete_product">Delete Product</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:67: Error: "product_name" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="product_name">Product Name</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:69: Error: "product_stock" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="product_stock">Stock: %d</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:70: Error: "product_category" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="product_category">Category</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:71: Error: "product_image" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="product_image">Image URL</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:74: Error: "user_panel" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="user_panel">User Panel</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:77: Error: "error_required" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="error_required">This field is required</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:78: Error: "error_invalid_email" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="error_invalid_email">Invalid email address</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:79: Error: "error_invalid_password" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:80: Error: "error_passwords_dont_match" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="error_passwords_dont_match">Passwords do not match</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:81: Error: "error_login" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="error_login">Login failed</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:82: Error: "error_register" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="error_register">Registration failed</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:83: Error: "error_add_to_cart" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="error_add_to_cart">Failed to add to cart</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:84: Error: "error_checkout" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="error_checkout">Checkout failed</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:85: Error: "success_add_to_cart" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="success_add_to_cart">Product added to cart</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:86: Error: "success_checkout" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="success_checkout">Order placed successfully</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:87: Error: "success_saved" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="success_saved">Successfully saved</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:88: Error: "success_deleted" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="success_deleted">Successfully deleted</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:96: Error: "profile" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="profile">Profile</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:104: Error: "action_logout" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="action_logout">Logout</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:105: Error: "search" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="search">Search</string>
+            ~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:106: Error: "about" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="about">About</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:107: Error: "help" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="help">Help</string>
+            ~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:108: Error: "contact" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="contact">Contact</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:109: Error: "terms" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="terms">Terms of Service</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:110: Error: "privacy" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="privacy">Privacy Policy</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:111: Error: "version" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="version">Version %s</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:112: Error: "copyright" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="copyright">© 2024 Shopping App. All rights reserved.</string>
+            ~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:113: Error: "ok" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="ok">OK</string>
+            ~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:114: Error: "yes" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="yes">Yes</string>
+            ~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:115: Error: "no" is not translated in "tr" (Turkish) [MissingTranslation]
+    <string name="no">No</string>
+            ~~~~~~~~~
+
+   Explanation for issues of type "MissingTranslation":
+   If an application has more than one locale, then all the strings declared
+   in one language should also be translated in all other languages.
+
+   If the string should not be translated, you can add the attribute
+   translatable="false" on the <string> element, or you can define all your
+   non-translatable strings in a resource file called donottranslate.xml. Or,
+   you can ignore the issue with a tools:ignore="MissingTranslation"
+   attribute.
+
+   You can tell lint (and other tools) which language is the default language
+   in your res/values/ folder by specifying tools:locale="languageCode" for
+   the root <resources> element in your resource file. (The tools prefix
+   refers to the namespace declaration http://schemas.android.com/tools.)
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values-tr\strings.xml:18: Error: "cart_empty" is translated here but not found in default locale [ExtraTranslation]
+    <string name="cart_empty">Sepetiniz boş</string>
+            ~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ExtraTranslation":
+   If a string appears in a specific language translation file, but there is
+   no corresponding string in the default locale, then this string is probably
+   unused. (It's technically possible that your application is only intended
+   to run in a specific locale, but it's still a good idea to provide a
+   fallback.)
+
+   Note that these strings can lead to crashes if the string is looked up on
+   any locale not providing a translation, so it's important to clean them
+   up.
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values-tr\strings.xml:15: Warning: Inconsistent number of arguments in formatting string quantity; found both 0 here and 1 in values/strings.xml [StringFormatCount]
+    <string name="quantity">Adet</string>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:32: Conflicting number of arguments (1) here
+
+   Explanation for issues of type "StringFormatCount":
+   When a formatted string takes arguments, it usually needs to reference the
+   same arguments in all translations (or all arguments if there are no
+   translations.
+
+   There are cases where this is not the case, so this issue is a warning
+   rather than an error by default. However, this usually happens when a
+   language is not translated or updated correctly.
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\adapters\CartAdapter.java:33: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged();
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\adapters\ProductAdapter.java:68: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged();
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\java\com\example\shoppingapp\adapters\ProductAdapter.java:73: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged();
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NotifyDataSetChanged":
+   The RecyclerView adapter's onNotifyDataSetChanged method does not specify
+   what about the data set has changed, forcing any observers to assume that
+   all existing items and structure may no longer be valid. `LayoutManager`s
+   will be forced to fully rebind and relayout all visible views.
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_settings.xml:9: Warning: Very long vector path (904 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector. [VectorPath]
+        android:pathData="M19.14,12.94c0.04,-0.3 0.06,-0.61 0.06,-0.94c0,-0.32 -0.02,-0.64 -0.07,-0.94l2.03,-1.58c0.18,-0.14 0.23,-0.41 0.12,-0.61l-1.92,-3.32c-0.12,-0.22 -0.37,-0.29 -0.59,-0.22l-2.39,0.96c-0.5,-0.38 -1.03,-0.7 -1.62,-0.94L14.4,2.81c-0.04,-0.24 -0.24,-0.41 -0.48,-0.41h-3.84c-0.24,0 -0.43,0.17 -0.47,0.41L9.25,5.35C8.66,5.59 8.12,5.92 7.63,6.29L5.24,5.33c-0.22,-0.08 -0.47,0 -0.59,0.22L2.74,8.87C2.62,9.08 2.66,9.34 2.86,9.48l2.03,1.58C4.84,11.36 4.8,11.69 4.8,12s0.02,0.64 0.07,0.94l-2.03,1.58c-0.18,0.14 -0.23,0.41 -0.12,0.61l1.92,3.32c0.12,0.22 0.37,0.29 0.59,0.22l2.39,-0.96c0.5,0.38 1.03,0.7 1.62,0.94l0.36,2.54c0.05,0.24 0.24,0.41 0.48,0.41h3.84c0.24,0 0.44,-0.17 0.47,-0.41l0.36,-2.54c0.59,-0.24 1.13,-0.56 1.62,-0.94l2.39,0.96c0.22,0.08 0.47,0 0.59,-0.22l1.92,-3.32c0.12,-0.22 0.07,-0.47 -0.12,-0.61L19.14,12.94zM12,15.6c-1.98,0 -3.6,-1.62 -3.6,-3.6s1.62,-3.6 3.6,-3.6s3.6,1.62 3.6,3.6S13.98,15.6 12,15.6z" />
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "VectorPath":
+   Using long vector paths is bad for performance. There are several ways to
+   make the pathData shorter:
+   * Using less precision
+   * Removing some minor details
+   * Using the Android Studio vector conversion tool
+   * Rasterizing the image (converting to PNG)
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\badge_background.xml:2: Warning: The resource R.drawable.badge_background appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\menu\bottom_nav_menu.xml:2: Warning: The resource R.menu.bottom_nav_menu appears to be unused [UnusedResources]
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\button_background.xml:2: Warning: The resource R.drawable.button_background appears to be unused [UnusedResources]
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\card_background.xml:2: Warning: The resource R.drawable.card_background appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:22: Warning: The resource R.color.gray appears to be unused [UnusedResources]
+    <color name="gray">#757575</color>
+           ~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:23: Warning: The resource R.color.light_gray appears to be unused [UnusedResources]
+    <color name="light_gray">#EEEEEE</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:26: Warning: The resource R.color.success appears to be unused [UnusedResources]
+    <color name="success">#4CAF50</color>
+           ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:27: Warning: The resource R.color.warning appears to be unused [UnusedResources]
+    <color name="warning">#FFC107</color>
+           ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:28: Warning: The resource R.color.info appears to be unused [UnusedResources]
+    <color name="info">#2196F3</color>
+           ~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:31: Warning: The resource R.color.ripple_color appears to be unused [UnusedResources]
+    <color name="ripple_color">#33000000</color>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:32: Warning: The resource R.color.card_background appears to be unused [UnusedResources]
+    <color name="card_background">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:33: Warning: The resource R.color.card_stroke appears to be unused [UnusedResources]
+    <color name="card_stroke">#E0E0E0</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:34: Warning: The resource R.color.divider appears to be unused [UnusedResources]
+    <color name="divider">#E0E0E0</color>
+           ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:35: Warning: The resource R.color.placeholder appears to be unused [UnusedResources]
+    <color name="placeholder">#BDBDBD</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:36: Warning: The resource R.color.success_background appears to be unused [UnusedResources]
+    <color name="success_background">#E8F5E9</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:40: Warning: The resource R.color.colorPrimaryDark appears to be unused [UnusedResources]
+    <color name="colorPrimaryDark">@color/primary_dark</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:44: Warning: The resource R.color.purple_200 appears to be unused [UnusedResources]
+    <color name="purple_200">#FFBB86FC</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:45: Warning: The resource R.color.purple_500 appears to be unused [UnusedResources]
+    <color name="purple_500">#FF6200EE</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:46: Warning: The resource R.color.purple_700 appears to be unused [UnusedResources]
+    <color name="purple_700">#FF3700B3</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:47: Warning: The resource R.color.teal_200 appears to be unused [UnusedResources]
+    <color name="teal_200">#FF03DAC5</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\colors.xml:48: Warning: The resource R.color.teal_700 appears to be unused [UnusedResources]
+    <color name="teal_700">#FF018786</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:4: Warning: The resource R.dimen.margin_small appears to be unused [UnusedResources]
+    <dimen name="margin_small">8dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:5: Warning: The resource R.dimen.margin_medium appears to be unused [UnusedResources]
+    <dimen name="margin_medium">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:6: Warning: The resource R.dimen.margin_large appears to be unused [UnusedResources]
+    <dimen name="margin_large">24dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:7: Warning: The resource R.dimen.margin_xlarge appears to be unused [UnusedResources]
+    <dimen name="margin_xlarge">32dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:10: Warning: The resource R.dimen.padding_small appears to be unused [UnusedResources]
+    <dimen name="padding_small">8dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:11: Warning: The resource R.dimen.padding_medium appears to be unused [UnusedResources]
+    <dimen name="padding_medium">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:12: Warning: The resource R.dimen.padding_large appears to be unused [UnusedResources]
+    <dimen name="padding_large">24dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:13: Warning: The resource R.dimen.padding_xlarge appears to be unused [UnusedResources]
+    <dimen name="padding_xlarge">32dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:16: Warning: The resource R.dimen.text_size_small appears to be unused [UnusedResources]
+    <dimen name="text_size_small">12sp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:17: Warning: The resource R.dimen.text_size_medium appears to be unused [UnusedResources]
+    <dimen name="text_size_medium">14sp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:18: Warning: The resource R.dimen.text_size_large appears to be unused [UnusedResources]
+    <dimen name="text_size_large">16sp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:19: Warning: The resource R.dimen.text_size_xlarge appears to be unused [UnusedResources]
+    <dimen name="text_size_xlarge">18sp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:20: Warning: The resource R.dimen.text_size_xxlarge appears to be unused [UnusedResources]
+    <dimen name="text_size_xxlarge">20sp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:21: Warning: The resource R.dimen.text_size_title appears to be unused [UnusedResources]
+    <dimen name="text_size_title">24sp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:22: Warning: The resource R.dimen.text_size_headline appears to be unused [UnusedResources]
+    <dimen name="text_size_headline">28sp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:25: Warning: The resource R.dimen.button_height appears to be unused [UnusedResources]
+    <dimen name="button_height">48dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:26: Warning: The resource R.dimen.input_height appears to be unused [UnusedResources]
+    <dimen name="input_height">56dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:27: Warning: The resource R.dimen.icon_size_small appears to be unused [UnusedResources]
+    <dimen name="icon_size_small">24dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:28: Warning: The resource R.dimen.icon_size_medium appears to be unused [UnusedResources]
+    <dimen name="icon_size_medium">32dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:29: Warning: The resource R.dimen.icon_size_large appears to be unused [UnusedResources]
+    <dimen name="icon_size_large">48dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:30: Warning: The resource R.dimen.image_size_small appears to be unused [UnusedResources]
+    <dimen name="image_size_small">64dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:31: Warning: The resource R.dimen.image_size_medium appears to be unused [UnusedResources]
+    <dimen name="image_size_medium">96dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:32: Warning: The resource R.dimen.image_size_large appears to be unused [UnusedResources]
+    <dimen name="image_size_large">128dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:33: Warning: The resource R.dimen.image_size_xlarge appears to be unused [UnusedResources]
+    <dimen name="image_size_xlarge">256dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:36: Warning: The resource R.dimen.elevation_small appears to be unused [UnusedResources]
+    <dimen name="elevation_small">2dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:37: Warning: The resource R.dimen.elevation_medium appears to be unused [UnusedResources]
+    <dimen name="elevation_medium">4dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:38: Warning: The resource R.dimen.elevation_large appears to be unused [UnusedResources]
+    <dimen name="elevation_large">8dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:39: Warning: The resource R.dimen.elevation_xlarge appears to be unused [UnusedResources]
+    <dimen name="elevation_xlarge">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:42: Warning: The resource R.dimen.corner_radius_small appears to be unused [UnusedResources]
+    <dimen name="corner_radius_small">4dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:43: Warning: The resource R.dimen.corner_radius_medium appears to be unused [UnusedResources]
+    <dimen name="corner_radius_medium">8dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:44: Warning: The resource R.dimen.corner_radius_large appears to be unused [UnusedResources]
+    <dimen name="corner_radius_large">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:45: Warning: The resource R.dimen.corner_radius_xlarge appears to be unused [UnusedResources]
+    <dimen name="corner_radius_xlarge">24dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:48: Warning: The resource R.dimen.spacing_small appears to be unused [UnusedResources]
+    <dimen name="spacing_small">4dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:49: Warning: The resource R.dimen.spacing_medium appears to be unused [UnusedResources]
+    <dimen name="spacing_medium">8dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:50: Warning: The resource R.dimen.spacing_large appears to be unused [UnusedResources]
+    <dimen name="spacing_large">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:51: Warning: The resource R.dimen.spacing_xlarge appears to be unused [UnusedResources]
+    <dimen name="spacing_xlarge">24dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:54: Warning: The resource R.dimen.grid_spacing appears to be unused [UnusedResources]
+    <dimen name="grid_spacing">8dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:55: Warning: The resource R.dimen.grid_item_width appears to be unused [UnusedResources]
+    <dimen name="grid_item_width">160dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:56: Warning: The resource R.dimen.grid_item_height appears to be unused [UnusedResources]
+    <dimen name="grid_item_height">200dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:59: Warning: The resource R.dimen.list_item_height appears to be unused [UnusedResources]
+    <dimen name="list_item_height">72dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:60: Warning: The resource R.dimen.list_divider_height appears to be unused [UnusedResources]
+    <dimen name="list_divider_height">1dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:63: Warning: The resource R.dimen.toolbar_height appears to be unused [UnusedResources]
+    <dimen name="toolbar_height">56dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:64: Warning: The resource R.dimen.toolbar_elevation appears to be unused [UnusedResources]
+    <dimen name="toolbar_elevation">4dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:67: Warning: The resource R.dimen.bottom_nav_height appears to be unused [UnusedResources]
+    <dimen name="bottom_nav_height">56dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:68: Warning: The resource R.dimen.bottom_nav_elevation appears to be unused [UnusedResources]
+    <dimen name="bottom_nav_elevation">8dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:71: Warning: The resource R.dimen.fab_margin appears to be unused [UnusedResources]
+    <dimen name="fab_margin">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:72: Warning: The resource R.dimen.fab_size appears to be unused [UnusedResources]
+    <dimen name="fab_size">56dp</dimen>
+           ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\dimens.xml:73: Warning: The resource R.dimen.fab_mini_size appears to be unused [UnusedResources]
+    <dimen name="fab_mini_size">40dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\divider.xml:2: Warning: The resource R.drawable.divider appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\error.xml:2: Warning: The resource R.drawable.error appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_back.xml:2: Warning: The resource R.drawable.ic_back appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_categories.xml:2: Warning: The resource R.drawable.ic_categories appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_check.xml:2: Warning: The resource R.drawable.ic_check appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_close.xml:2: Warning: The resource R.drawable.ic_close appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_delete.xml:2: Warning: The resource R.drawable.ic_delete appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_edit.xml:2: Warning: The resource R.drawable.ic_edit appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_error.xml:2: Warning: The resource R.drawable.ic_error appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_favorite.xml:2: Warning: The resource R.drawable.ic_favorite appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_favorite_border.xml:2: Warning: The resource R.drawable.ic_favorite_border appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_filter.xml:2: Warning: The resource R.drawable.ic_filter appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_forward.xml:2: Warning: The resource R.drawable.ic_forward appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_help.xml:2: Warning: The resource R.drawable.ic_help appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_help_outline.xml:2: Warning: The resource R.drawable.ic_help_outline appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_home.xml:2: Warning: The resource R.drawable.ic_home appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_info.xml:2: Warning: The resource R.drawable.ic_info appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_menu.xml:2: Warning: The resource R.drawable.ic_menu appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_menu_remove.xml:2: Warning: The resource R.drawable.ic_menu_remove appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_notifications.xml:2: Warning: The resource R.drawable.ic_notifications appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_remove.xml:2: Warning: The resource R.drawable.ic_remove appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_search.xml:2: Warning: The resource R.drawable.ic_search appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_settings.xml:2: Warning: The resource R.drawable.ic_settings appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_share.xml:2: Warning: The resource R.drawable.ic_share appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_sort.xml:2: Warning: The resource R.drawable.ic_sort appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_visibility.xml:2: Warning: The resource R.drawable.ic_visibility appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_visibility_off.xml:2: Warning: The resource R.drawable.ic_visibility_off appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ic_warning.xml:2: Warning: The resource R.drawable.ic_warning appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\input_background.xml:2: Warning: The resource R.drawable.input_background appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\loading.xml:2: Warning: The resource R.drawable.loading appears to be unused [UnusedResources]
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\loading_circle.xml:2: Warning: The resource R.drawable.loading_circle appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\placeholder.xml:2: Warning: The resource R.drawable.placeholder appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\placeholder_product.xml:2: Warning: The resource R.drawable.placeholder_product appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\placeholder_profile.xml:2: Warning: The resource R.drawable.placeholder_profile appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\product1.webp: Warning: The resource R.drawable.product1 appears to be unused [UnusedResources]
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\product2.png: Warning: The resource R.drawable.product2 appears to be unused [UnusedResources]
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\product3.jpg: Warning: The resource R.drawable.product3 appears to be unused [UnusedResources]
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\ripple_effect.xml:2: Warning: The resource R.drawable.ripple_effect appears to be unused [UnusedResources]
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\smartwatch.jpg: Warning: The resource R.drawable.smartwatch appears to be unused [UnusedResources]
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.confirm_password appears to be unused [UnusedResources]
+    <string name="confirm_password">Confirm Password</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:12: Warning: The resource R.string.dont_have_account appears to be unused [UnusedResources]
+    <string name="dont_have_account">Don\'t have an account?</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:13: Warning: The resource R.string.already_have_account appears to be unused [UnusedResources]
+    <string name="already_have_account">Already have an account?</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.menu_home appears to be unused [UnusedResources]
+    <string name="menu_home">Home</string>
+            ~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:17: Warning: The resource R.string.menu_categories appears to be unused [UnusedResources]
+    <string name="menu_categories">Categories</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values-tr\strings.xml:18: Warning: The resource R.string.cart_empty appears to be unused [UnusedResources]
+    <string name="cart_empty">Sepetiniz boş</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:18: Warning: The resource R.string.menu_cart appears to be unused [UnusedResources]
+    <string name="menu_cart">Cart</string>
+            ~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:19: Warning: The resource R.string.menu_profile appears to be unused [UnusedResources]
+    <string name="menu_profile">Profile</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:20: Warning: The resource R.string.menu_logout appears to be unused [UnusedResources]
+    <string name="menu_logout">Logout</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:21: Warning: The resource R.string.menu_admin appears to be unused [UnusedResources]
+    <string name="menu_admin">Admin Panel</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:22: Warning: The resource R.string.menu_settings appears to be unused [UnusedResources]
+    <string name="menu_settings">Settings</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:25: Warning: The resource R.string.buy_now appears to be unused [UnusedResources]
+    <string name="buy_now">Buy Now</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:26: Warning: The resource R.string.product_details appears to be unused [UnusedResources]
+    <string name="product_details">Product Details</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:27: Warning: The resource R.string.price appears to be unused [UnusedResources]
+    <string name="price">$%.2f</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:28: Warning: The resource R.string.stock appears to be unused [UnusedResources]
+    <string name="stock">Stock: %d</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:29: Warning: The resource R.string.description appears to be unused [UnusedResources]
+    <string name="description">Description: %s</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:30: Warning: The resource R.string.add_to_cart appears to be unused [UnusedResources]
+    <string name="add_to_cart">Add to Cart</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:31: Warning: The resource R.string.product_description appears to be unused [UnusedResources]
+    <string name="product_description">Product Description</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:32: Warning: The resource R.string.quantity appears to be unused [UnusedResources]
+    <string name="quantity">Quantity: %d</string>
+            ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:33: Warning: The resource R.string.category appears to be unused [UnusedResources]
+    <string name="category">Category: %s</string>
+            ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:36: Warning: The resource R.string.cart appears to be unused [UnusedResources]
+    <string name="cart">Cart</string>
+            ~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:37: Warning: The resource R.string.empty_cart appears to be unused [UnusedResources]
+    <string name="empty_cart">Your cart is empty</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:38: Warning: The resource R.string.cart_total appears to be unused [UnusedResources]
+    <string name="cart_total">Total: $%.2f</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:39: Warning: The resource R.string.checkout appears to be unused [UnusedResources]
+    <string name="checkout">Checkout</string>
+            ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:40: Warning: The resource R.string.remove_item appears to be unused [UnusedResources]
+    <string name="remove_item">Remove item</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:41: Warning: The resource R.string.remove_from_cart appears to be unused [UnusedResources]
+    <string name="remove_from_cart">Remove from Cart</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:42: Warning: The resource R.string.total_price appears to be unused [UnusedResources]
+    <string name="total_price">Total: $%.2f</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:43: Warning: The resource R.string.decrease_quantity appears to be unused [UnusedResources]
+    <string name="decrease_quantity">Decrease quantity</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:44: Warning: The resource R.string.increase_quantity appears to be unused [UnusedResources]
+    <string name="increase_quantity">Increase quantity</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:47: Warning: The resource R.string.shipping_info appears to be unused [UnusedResources]
+    <string name="shipping_info">Shipping Information</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:48: Warning: The resource R.string.shipping_address appears to be unused [UnusedResources]
+    <string name="shipping_address">Shipping Address</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:49: Warning: The resource R.string.payment_info appears to be unused [UnusedResources]
+    <string name="payment_info">Payment Information</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:50: Warning: The resource R.string.payment_method appears to be unused [UnusedResources]
+    <string name="payment_method">Payment Method</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:51: Warning: The resource R.string.order_summary appears to be unused [UnusedResources]
+    <string name="order_summary">Order Summary</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:52: Warning: The resource R.string.place_order appears to be unused [UnusedResources]
+    <string name="place_order">Place Order</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:55: Warning: The resource R.string.order_success appears to be unused [UnusedResources]
+    <string name="order_success">Your order has been placed successfully</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:56: Warning: The resource R.string.order_confirmed appears to be unused [UnusedResources]
+    <string name="order_confirmed">Order Confirmed</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:57: Warning: The resource R.string.order_number appears to be unused [UnusedResources]
+    <string name="order_number">Order #%s</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:58: Warning: The resource R.string.order_date appears to be unused [UnusedResources]
+    <string name="order_date">Order Date: %s</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:59: Warning: The resource R.string.order_status appears to be unused [UnusedResources]
+    <string name="order_status">Status: %s</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:60: Warning: The resource R.string.order_total appears to be unused [UnusedResources]
+    <string name="order_total">Total Amount</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:65: Warning: The resource R.string.edit_product appears to be unused [UnusedResources]
+    <string name="edit_product">Edit Product</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:66: Warning: The resource R.string.delete_product appears to be unused [UnusedResources]
+    <string name="delete_product">Delete Product</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:67: Warning: The resource R.string.product_name appears to be unused [UnusedResources]
+    <string name="product_name">Product Name</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:68: Warning: The resource R.string.product_price appears to be unused [UnusedResources]
+    <string name="product_price">Price: $%.2f</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:69: Warning: The resource R.string.product_stock appears to be unused [UnusedResources]
+    <string name="product_stock">Stock: %d</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:70: Warning: The resource R.string.product_category appears to be unused [UnusedResources]
+    <string name="product_category">Category</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:71: Warning: The resource R.string.product_image appears to be unused [UnusedResources]
+    <string name="product_image">Image URL</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:72: Warning: The resource R.string.save appears to be unused [UnusedResources]
+    <string name="save">Save</string>
+            ~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:73: Warning: The resource R.string.cancel appears to be unused [UnusedResources]
+    <string name="cancel">Cancel</string>
+            ~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:74: Warning: The resource R.string.user_panel appears to be unused [UnusedResources]
+    <string name="user_panel">User Panel</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:77: Warning: The resource R.string.error_required appears to be unused [UnusedResources]
+    <string name="error_required">This field is required</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:78: Warning: The resource R.string.error_invalid_email appears to be unused [UnusedResources]
+    <string name="error_invalid_email">Invalid email address</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:79: Warning: The resource R.string.error_invalid_password appears to be unused [UnusedResources]
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:80: Warning: The resource R.string.error_passwords_dont_match appears to be unused [UnusedResources]
+    <string name="error_passwords_dont_match">Passwords do not match</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:81: Warning: The resource R.string.error_login appears to be unused [UnusedResources]
+    <string name="error_login">Login failed</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:82: Warning: The resource R.string.error_register appears to be unused [UnusedResources]
+    <string name="error_register">Registration failed</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:83: Warning: The resource R.string.error_add_to_cart appears to be unused [UnusedResources]
+    <string name="error_add_to_cart">Failed to add to cart</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:84: Warning: The resource R.string.error_checkout appears to be unused [UnusedResources]
+    <string name="error_checkout">Checkout failed</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:85: Warning: The resource R.string.success_add_to_cart appears to be unused [UnusedResources]
+    <string name="success_add_to_cart">Product added to cart</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:86: Warning: The resource R.string.success_checkout appears to be unused [UnusedResources]
+    <string name="success_checkout">Order placed successfully</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:87: Warning: The resource R.string.success_saved appears to be unused [UnusedResources]
+    <string name="success_saved">Successfully saved</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:88: Warning: The resource R.string.success_deleted appears to be unused [UnusedResources]
+    <string name="success_deleted">Successfully deleted</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:91: Warning: The resource R.string.profile_title appears to be unused [UnusedResources]
+    <string name="profile_title">My Profile</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:92: Warning: The resource R.string.edit_profile appears to be unused [UnusedResources]
+    <string name="edit_profile">Edit Profile</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:93: Warning: The resource R.string.my_orders appears to be unused [UnusedResources]
+    <string name="my_orders">My Orders</string>
+            ~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:94: Warning: The resource R.string.settings appears to be unused [UnusedResources]
+    <string name="settings">Settings</string>
+            ~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:96: Warning: The resource R.string.profile appears to be unused [UnusedResources]
+    <string name="profile">Profile</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:99: Warning: The resource R.string.loading appears to be unused [UnusedResources]
+    <string name="loading">Loading...</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:100: Warning: The resource R.string.error appears to be unused [UnusedResources]
+    <string name="error">Error</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:101: Warning: The resource R.string.success appears to be unused [UnusedResources]
+    <string name="success">Success</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:102: Warning: The resource R.string.delete appears to be unused [UnusedResources]
+    <string name="delete">Delete</string>
+            ~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:103: Warning: The resource R.string.edit appears to be unused [UnusedResources]
+    <string name="edit">Edit</string>
+            ~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:104: Warning: The resource R.string.action_logout appears to be unused [UnusedResources]
+    <string name="action_logout">Logout</string>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:105: Warning: The resource R.string.search appears to be unused [UnusedResources]
+    <string name="search">Search</string>
+            ~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:106: Warning: The resource R.string.about appears to be unused [UnusedResources]
+    <string name="about">About</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:107: Warning: The resource R.string.help appears to be unused [UnusedResources]
+    <string name="help">Help</string>
+            ~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:108: Warning: The resource R.string.contact appears to be unused [UnusedResources]
+    <string name="contact">Contact</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:109: Warning: The resource R.string.terms appears to be unused [UnusedResources]
+    <string name="terms">Terms of Service</string>
+            ~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:110: Warning: The resource R.string.privacy appears to be unused [UnusedResources]
+    <string name="privacy">Privacy Policy</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:111: Warning: The resource R.string.version appears to be unused [UnusedResources]
+    <string name="version">Version %s</string>
+            ~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:112: Warning: The resource R.string.copyright appears to be unused [UnusedResources]
+    <string name="copyright">© 2024 Shopping App. All rights reserved.</string>
+            ~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:113: Warning: The resource R.string.ok appears to be unused [UnusedResources]
+    <string name="ok">OK</string>
+            ~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:114: Warning: The resource R.string.yes appears to be unused [UnusedResources]
+    <string name="yes">Yes</string>
+            ~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:115: Warning: The resource R.string.no appears to be unused [UnusedResources]
+    <string name="no">No</string>
+            ~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:4: Warning: The resource R.style.Widget_ShoppingApp appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp" parent="Widget.MaterialComponents.Button">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:8: Warning: The resource R.style.ThemeOverlay_ShoppingApp appears to be unused [UnusedResources]
+    <style name="ThemeOverlay.ShoppingApp" parent="ThemeOverlay.MaterialComponents">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:14: Warning: The resource R.style.Widget_ShoppingApp_Button appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.Button" parent="Widget.MaterialComponents.Button">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:24: Warning: The resource R.style.Widget_ShoppingApp_Button_OutlinedButton appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:35: Warning: The resource R.style.Widget_ShoppingApp_Button_TextButton appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:45: Warning: The resource R.style.Widget_ShoppingApp_TextInputLayout appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:55: Warning: The resource R.style.Widget_ShoppingApp_CardView appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.CardView" parent="Widget.MaterialComponents.CardView">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:63: Warning: The resource R.style.Widget_ShoppingApp_Toolbar appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:71: Warning: The resource R.style.Widget_ShoppingApp_BottomNavigationView appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:79: Warning: The resource R.style.Widget_ShoppingApp_ProgressBar appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.ProgressBar" parent="Widget.AppCompat.ProgressBar">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:84: Warning: The resource R.style.Widget_ShoppingApp_Divider appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.Divider">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\styles.xml:91: Warning: The resource R.style.Widget_ShoppingApp_Badge appears to be unused [UnusedResources]
+    <style name="Widget.ShoppingApp.Badge" parent="Widget.MaterialComponents.Badge">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\success.xml:2: Warning: The resource R.drawable.success appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values-tr\strings.xml:31: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="loading">Yükleniyor...</string>
+                           ~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\values\strings.xml:99: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="loading">Loading...</string>
+                           ~~~~~~~~~~
+
+   Explanation for issues of type "TypographyEllipsis":
+   You can replace the string "..." with a dedicated ellipsis character,
+   ellipsis character (u2026, &#8230;). This can help make the text more
+   readable.
+
+   https://en.wikipedia.org/wiki/Ellipsis
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The application adaptive roundIcon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\product1.webp: Warning: Found bitmap drawable res/drawable/product1.webp in densityless folder [IconLocation]
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\product2.png: Warning: Found bitmap drawable res/drawable/product2.png in densityless folder [IconLocation]
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\product3.jpg: Warning: Found bitmap drawable res/drawable/product3.jpg in densityless folder [IconLocation]
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\drawable\smartwatch.jpg: Warning: Found bitmap drawable res/drawable/smartwatch.jpg in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_admin_product.xml:64: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+                <Button
+                 ~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_admin_product.xml:73: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+                <Button
+                 ~~~~~~
+
+   Explanation for issues of type "ButtonStyle":
+   Button bars typically use a borderless style for the buttons. Set the
+   style="?android:attr/buttonBarButtonStyle" attribute on each of the
+   buttons, and set style="?android:attr/buttonBarStyle" on the parent layout
+
+   https://d.android.com/r/studio-ui/designer/material/dialogs
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_register.xml:17: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_register.xml:25: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_register.xml:33: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:61: Information: Add suffix -ktx to enable the Kotlin extensions for this library [KtxExtensionAvailable]
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:62: Information: Add suffix -ktx to enable the Kotlin extensions for this library [KtxExtensionAvailable]
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\build.gradle:64: Information: Add suffix -ktx to enable the Kotlin extensions for this library [KtxExtensionAvailable]
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "KtxExtensionAvailable":
+   Android KTX extensions augment some libraries with support for modern
+   Kotlin language features like extension functions, extension properties,
+   lambdas, named parameters, coroutines, and more.
+
+   In Kotlin projects, use the KTX version of a library by replacing the
+   dependency in your build.gradle file. For example, you can replace
+   androidx.fragment:fragment with androidx.fragment:fragment-ktx.
+
+   https://developer.android.com/kotlin/ktx
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_login.xml:10: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_cart.xml:16: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_cart.xml:82: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageButton
+         ~~~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_add_edit_product.xml:16: Warning: Hardcoded string "افزودن محصول جدید", should use @string resource [HardcodedText]
+            android:text="افزودن محصول جدید"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_add_edit_product.xml:28: Warning: Hardcoded string "تصویر محصول", should use @string resource [HardcodedText]
+            android:contentDescription="تصویر محصول"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_add_edit_product.xml:35: Warning: Hardcoded string "انتخاب تصویر", should use @string resource [HardcodedText]
+            android:text="انتخاب تصویر"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_add_edit_product.xml:50: Warning: Hardcoded string "نام محصول", should use @string resource [HardcodedText]
+                android:hint="نام محصول"
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_add_edit_product.xml:65: Warning: Hardcoded string "توضیحات محصول", should use @string resource [HardcodedText]
+                android:hint="توضیحات محصول"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_add_edit_product.xml:81: Warning: Hardcoded string "قیمت (تومان)", should use @string resource [HardcodedText]
+                android:hint="قیمت (تومان)"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_add_edit_product.xml:96: Warning: Hardcoded string "موجودی", should use @string resource [HardcodedText]
+                android:hint="موجودی"
+                ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_add_edit_product.xml:111: Warning: Hardcoded string "دسته‌بندی", should use @string resource [HardcodedText]
+                android:hint="دسته‌بندی"
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_add_edit_product.xml:119: Warning: Hardcoded string "ذخیره", should use @string resource [HardcodedText]
+            android:text="ذخیره"
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_admin_setup.xml:13: Warning: Hardcoded string "تنظیم ادمین", should use @string resource [HardcodedText]
+        android:text="تنظیم ادمین"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_admin_setup.xml:28: Warning: Hardcoded string "ایمیل ادمین", should use @string resource [HardcodedText]
+            android:hint="ایمیل ادمین"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_admin_setup.xml:36: Warning: Hardcoded string "ذخیره", should use @string resource [HardcodedText]
+        android:text="ذخیره"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_cart.xml:51: Warning: Hardcoded string "پرداخت", should use @string resource [HardcodedText]
+            android:text="پرداخت"
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_checkout.xml:36: Warning: Hardcoded string "اطلاعات تحویل گیرنده", should use @string resource [HardcodedText]
+                android:text="اطلاعات تحویل گیرنده"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_checkout.xml:46: Warning: Hardcoded string "نام و نام خانوادگی", should use @string resource [HardcodedText]
+                android:hint="نام و نام خانوادگی">
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_checkout.xml:60: Warning: Hardcoded string "آدرس", should use @string resource [HardcodedText]
+                android:hint="آدرس">
+                ~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_checkout.xml:75: Warning: Hardcoded string "شماره تماس", should use @string resource [HardcodedText]
+                android:hint="شماره تماس">
+                ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_checkout.xml:106: Warning: Hardcoded string "پرداخت", should use @string resource [HardcodedText]
+                android:text="پرداخت"
+                ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_order_confirmation.xml:37: Warning: Hardcoded string "تأیید سفارش", should use @string resource [HardcodedText]
+            android:contentDescription="تأیید سفارش"/>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_order_confirmation.xml:42: Warning: Hardcoded string "سفارش شما با موفقیت ثبت شد", should use @string resource [HardcodedText]
+            android:text="سفارش شما با موفقیت ثبت شد"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_order_confirmation.xml:77: Warning: Hardcoded string "ادامه خرید", should use @string resource [HardcodedText]
+            android:text="ادامه خرید"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_payment.xml:41: Warning: Hardcoded string "پرداخت", should use @string resource [HardcodedText]
+            android:text="پرداخت"
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_product_detail.xml:36: Warning: Hardcoded string "تصویر محصول", should use @string resource [HardcodedText]
+                android:contentDescription="تصویر محصول"/>
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_product_detail.xml:72: Warning: Hardcoded string "توضیحات محصول", should use @string resource [HardcodedText]
+                android:text="توضیحات محصول"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_product_detail.xml:95: Warning: Hardcoded string "افزودن به سبد خرید", should use @string resource [HardcodedText]
+        android:contentDescription="افزودن به سبد خرید"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_profile.xml:30: Warning: Hardcoded string "نام", should use @string resource [HardcodedText]
+            android:text="نام"
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_profile.xml:52: Warning: Hardcoded string "ایمیل", should use @string resource [HardcodedText]
+            android:text="ایمیل"
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_register.xml:12: Warning: Hardcoded string "ثبت‌نام", should use @string resource [HardcodedText]
+        android:text="ثبت‌نام"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_register.xml:21: Warning: Hardcoded string "ایمیل", should use @string resource [HardcodedText]
+        android:hint="ایمیل"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_register.xml:29: Warning: Hardcoded string "نام", should use @string resource [HardcodedText]
+        android:hint="نام"
+        ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_register.xml:37: Warning: Hardcoded string "رمز عبور", should use @string resource [HardcodedText]
+        android:hint="رمز عبور"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_register.xml:45: Warning: Hardcoded string "ثبت‌نام", should use @string resource [HardcodedText]
+        android:text="ثبت‌نام"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\activity_register.xml:52: Warning: Hardcoded string "قبلا ثبت‌نام کرده‌اید؟ ورود", should use @string resource [HardcodedText]
+        android:text="قبلا ثبت‌نام کرده‌اید؟ ورود"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\menu\bottom_nav_menu.xml:6: Warning: Hardcoded string "Home", should use @string resource [HardcodedText]
+        android:title="Home" />
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\menu\bottom_nav_menu.xml:11: Warning: Hardcoded string "Categories", should use @string resource [HardcodedText]
+        android:title="Categories" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\menu\bottom_nav_menu.xml:16: Warning: Hardcoded string "Cart", should use @string resource [HardcodedText]
+        android:title="Cart" />
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\menu\bottom_nav_menu.xml:21: Warning: Hardcoded string "Profile", should use @string resource [HardcodedText]
+        android:title="Profile" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_admin_product.xml:21: Warning: Hardcoded string "تصویر محصول", should use @string resource [HardcodedText]
+            android:contentDescription="تصویر محصول" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_admin_product.xml:69: Warning: Hardcoded string "ویرایش", should use @string resource [HardcodedText]
+                    android:text="ویرایش"
+                    ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_admin_product.xml:78: Warning: Hardcoded string "حذف", should use @string resource [HardcodedText]
+                    android:text="حذف"
+                    ~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_cart.xml:62: Warning: Hardcoded string "-", should use @string resource [HardcodedText]
+                android:text="-"
+                ~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_cart.xml:77: Warning: Hardcoded string "+", should use @string resource [HardcodedText]
+                android:text="+"
+                ~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\layout\item_product.xml:21: Warning: Hardcoded string "تصویر محصول", should use @string resource [HardcodedText]
+            android:contentDescription="تصویر محصول"/>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\menu\main_menu.xml:8: Warning: Hardcoded string "Cart", should use @string resource [HardcodedText]
+        android:title="Cart"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\DELL\Desktop\cursor_java\app\src\main\res\menu\main_menu.xml:14: Warning: Hardcoded string "Profile", should use @string resource [HardcodedText]
+        android:title="Profile"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+82 errors, 312 warnings

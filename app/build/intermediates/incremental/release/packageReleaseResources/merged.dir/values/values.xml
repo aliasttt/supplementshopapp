@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E0E0E0</color>
+    <color name="colorAccent">@color/secondary</color>
+    <color name="colorPrimary">@color/primary</color>
+    <color name="colorPrimaryDark">@color/primary_dark</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="error">#B00020</color>
+    <color name="gray">#757575</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="info">#2196F3</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="on_background">#000000</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_surface">#000000</color>
+    <color name="placeholder">#BDBDBD</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="ripple_color">#33000000</color>
+    <color name="secondary">#FF4081</color>
+    <color name="secondary_dark">#F50057</color>
+    <color name="success">#4CAF50</color>
+    <color name="success_background">#E8F5E9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="warning">#FFC107</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="bottom_nav_elevation">8dp</dimen>
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="corner_radius_large">16dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_xlarge">24dp</dimen>
+    <dimen name="elevation_large">8dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="elevation_xlarge">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_mini_size">40dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="grid_item_height">200dp</dimen>
+    <dimen name="grid_item_width">160dp</dimen>
+    <dimen name="grid_spacing">8dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="image_size_large">128dp</dimen>
+    <dimen name="image_size_medium">96dp</dimen>
+    <dimen name="image_size_small">64dp</dimen>
+    <dimen name="image_size_xlarge">256dp</dimen>
+    <dimen name="input_height">56dp</dimen>
+    <dimen name="list_divider_height">1dp</dimen>
+    <dimen name="list_item_height">72dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_xlarge">24dp</dimen>
+    <dimen name="text_size_headline">28sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xxlarge">20sp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <string name="about">About</string>
+    <string name="action_logout">Logout</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="app_name">Shopping App</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="cancel">Cancel</string>
+    <string name="cart">Cart</string>
+    <string name="cart_total">Total: $%.2f</string>
+    <string name="category">Category: %s</string>
+    <string name="checkout">Checkout</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="contact">Contact</string>
+    <string name="copyright">© 2024 Shopping App. All rights reserved.</string>
+    <string name="decrease_quantity">Decrease quantity</string>
+    <string name="default_web_client_id" translatable="false">109876543210-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com</string>
+    <string name="delete">Delete</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="description">Description: %s</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="edit">Edit</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="email">Email</string>
+    <string name="empty_cart">Your cart is empty</string>
+    <string name="error">Error</string>
+    <string name="error_add_to_cart">Failed to add to cart</string>
+    <string name="error_checkout">Checkout failed</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+    <string name="error_login">Login failed</string>
+    <string name="error_passwords_dont_match">Passwords do not match</string>
+    <string name="error_register">Registration failed</string>
+    <string name="error_required">This field is required</string>
+    <string name="firebase_database_url" translatable="false">https://shopping-app-12345.firebaseio.com</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="gcm_defaultSenderId" translatable="false">109876543210</string>
+    <string name="google_api_key" translatable="false">AIzaSyD1234567890abcdefghijklmnopqrstuvwxyz</string>
+    <string name="google_app_id" translatable="false">1:109876543210:android:1234567890abcdef</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD1234567890abcdefghijklmnopqrstuvwxyz</string>
+    <string name="google_storage_bucket" translatable="false">shopping-app-12345.appspot.com</string>
+    <string name="help">Help</string>
+    <string name="increase_quantity">Increase quantity</string>
+    <string name="loading">Loading...</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="menu_admin">Admin Panel</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="my_orders">My Orders</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="order_confirmed">Order Confirmed</string>
+    <string name="order_date">Order Date: %s</string>
+    <string name="order_number">Order #%s</string>
+    <string name="order_status">Status: %s</string>
+    <string name="order_success">Your order has been placed successfully</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="order_total">Total Amount</string>
+    <string name="password">Password</string>
+    <string name="payment_info">Payment Information</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="place_order">Place Order</string>
+    <string name="price">$%.2f</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="product_category">Category</string>
+    <string name="product_description">Product Description</string>
+    <string name="product_details">Product Details</string>
+    <string name="product_image">Image URL</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Price: $%.2f</string>
+    <string name="product_stock">Stock: %d</string>
+    <string name="profile">Profile</string>
+    <string name="profile_title">My Profile</string>
+    <string name="project_id" translatable="false">shopping-app-12345</string>
+    <string name="quantity">Quantity: %d</string>
+    <string name="register">Register</string>
+    <string name="remove_from_cart">Remove from Cart</string>
+    <string name="remove_item">Remove item</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="shipping_info">Shipping Information</string>
+    <string name="stock">Stock: %d</string>
+    <string name="success">Success</string>
+    <string name="success_add_to_cart">Product added to cart</string>
+    <string name="success_checkout">Order placed successfully</string>
+    <string name="success_deleted">Successfully deleted</string>
+    <string name="success_saved">Successfully saved</string>
+    <string name="terms">Terms of Service</string>
+    <string name="total_price">Total: $%.2f</string>
+    <string name="user_panel">User Panel</string>
+    <string name="version">Version %s</string>
+    <string name="yes">Yes</string>
+    <style name="TextAppearance.ShoppingApp.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">96sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">60sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.ShoppingApp.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Theme.ShoppingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        
+        <item name="textAppearanceHeadline1">@style/TextAppearance.ShoppingApp.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.ShoppingApp.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.ShoppingApp.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.ShoppingApp.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.ShoppingApp.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.ShoppingApp.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.ShoppingApp.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.ShoppingApp.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.ShoppingApp.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.ShoppingApp.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.ShoppingApp.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.ShoppingApp.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.ShoppingApp.Overline</item>
+    </style>
+    <style name="ThemeOverlay.ShoppingApp" parent="ThemeOverlay.MaterialComponents">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+    </style>
+    <style name="Widget.ShoppingApp" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.ShoppingApp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Badge" parent="Widget.MaterialComponents.Badge">
+        <item name="android:background">@color/error</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Widget.ShoppingApp.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/primary</item>
+        <item name="itemTextColor">@color/primary</item>
+        <item name="itemRippleColor">@color/primary</item>
+        <item name="elevation">8dp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.ShoppingApp.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+    <style name="Widget.ShoppingApp.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/light_gray</item>
+    </style>
+    <style name="Widget.ShoppingApp.ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">@color/primary</item>
+    </style>
+    <style name="Widget.ShoppingApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+    </style>
+    <style name="Widget.ShoppingApp.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+</resources>

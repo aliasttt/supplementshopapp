@@ -1,0 +1,302 @@
+[
+    {
+        "merged": "com.example.shoppingapp-release-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_button_background.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_divider.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/divider.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_logout.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_filter.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_filter.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_admin_panel.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_admin_panel.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_placeholder.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/placeholder.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_favorite_border.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_favorite_border.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_success.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/success.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_order_confirmation.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_order_confirmation.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ripple_effect.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ripple_effect.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_share.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_help.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_help.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_login.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_search.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_visibility_off.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_visibility_off.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_error.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/error.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/menu_admin_menu.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/menu/admin_menu.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_menu.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_add_edit_product.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_add_edit_product.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_remove.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_remove.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_categories.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_categories.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_register.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/font_roboto_regular.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/font/roboto_regular.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_profile.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_delete.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_placeholder_product.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/placeholder_product.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_item_cart.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_notifications.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_notifications.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_cart.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_cart.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_edit.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_admin_setup.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_admin_setup.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_input_background.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/input_background.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_payment.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_error_image.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/error_image.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_error.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_error.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_loading.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/loading.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_card_background.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/card_background.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_image_placeholder.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/image_placeholder.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_favorite.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_favorite.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_smartwatch.jpg.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/smartwatch.jpg"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_info.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_cart.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_cart.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_checkout.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_checkout.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_logo.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_placeholder_image.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/placeholder_image.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_sort.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_sort.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_close.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_placeholder_profile.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/placeholder_profile.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_visibility.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_visibility.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_check.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_loading_circle.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/loading_circle.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/font_iran_sans.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/font/iran_sans.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_back.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_product_detail.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_help_outline.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_help_outline.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_main.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_product1.webp.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/product1.webp"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_forward.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_forward.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_home.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_activity_profile.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/font_roboto_bold.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/font/roboto_bold.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_add.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_badge_background.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/badge_background.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_product2.png.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/product2.png"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_menu_remove.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_menu_remove.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_item_admin_product.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/item_admin_product.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/layout_item_product.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/menu_main_menu.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_settings.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_ic_warning.xml.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/ic_warning.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-release-46:/drawable_product3.jpg.flat",
+        "source": "com.example.shoppingapp-main-47:/drawable/product3.jpg"
+    }
+]

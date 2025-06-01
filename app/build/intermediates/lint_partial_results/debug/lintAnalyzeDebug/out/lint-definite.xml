@@ -1,0 +1,3074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.1" type="incidents">
+
+    <incident
+        id="WrongViewCast"
+        severity="error"
+        message="Unexpected implicit cast to `Button`: layout tag was `ImageButton`">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/adapters/CartAdapter.java"
+            line="72"
+            column="13"
+            startOffset="2507"
+            endLine="72"
+            endColumn="68"
+            endOffset="2562"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_bold` should not reference itself">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/font/roboto_bold.xml"
+            line="5"
+            column="9"
+            startOffset="190"
+            endLine="5"
+            endColumn="41"
+            endOffset="222"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_bold` should not reference itself">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/font/roboto_bold.xml"
+            line="5"
+            column="9"
+            startOffset="190"
+            endLine="5"
+            endColumn="41"
+            endOffset="222"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_bold` should not reference itself">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/font/roboto_bold.xml"
+            line="8"
+            column="9"
+            startOffset="302"
+            endLine="8"
+            endColumn="37"
+            endOffset="330"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_regular` should not reference itself">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/font/roboto_regular.xml"
+            line="5"
+            column="9"
+            startOffset="190"
+            endLine="5"
+            endColumn="44"
+            endOffset="225"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_regular` should not reference itself">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/font/roboto_regular.xml"
+            line="5"
+            column="9"
+            startOffset="190"
+            endLine="5"
+            endColumn="44"
+            endOffset="225"/>
+    </incident>
+
+    <incident
+        id="ResourceCycle"
+        severity="fatal"
+        message="Font `roboto_regular` should not reference itself">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/font/roboto_regular.xml"
+            line="8"
+            column="9"
+            startOffset="305"
+            endLine="8"
+            endColumn="40"
+            endOffset="336"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/adapters/AdminProductAdapter.java"
+            line="104"
+            column="34"
+            startOffset="4163"
+            endLine="104"
+            endColumn="89"
+            endOffset="4218"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/activities/CartActivity.java"
+            line="71"
+            column="32"
+            startOffset="2519"
+            endLine="71"
+            endColumn="68"
+            endOffset="2555"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/adapters/CartAdapter.java"
+            line="77"
+            column="34"
+            startOffset="2699"
+            endLine="77"
+            endColumn="80"
+            endOffset="2745"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/activities/CheckoutActivity.java"
+            line="47"
+            column="32"
+            startOffset="1621"
+            endLine="47"
+            endColumn="96"
+            endOffset="1685"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/activities/OrderConfirmationActivity.java"
+            line="60"
+            column="45"
+            startOffset="2286"
+            endLine="61"
+            endColumn="67"
+            endOffset="2391"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/activities/PaymentActivity.java"
+            line="63"
+            column="32"
+            startOffset="1971"
+            endLine="63"
+            endColumn="90"
+            endOffset="2029"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/adapters/ProductAdapter.java"
+            line="51"
+            column="34"
+            startOffset="1723"
+            endLine="51"
+            endColumn="82"
+            endOffset="1771"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/activities/ProductDetailActivity.java"
+            line="103"
+            column="27"
+            startOffset="3794"
+            endLine="103"
+            endColumn="81"
+            endOffset="3848"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/activities/ProductDetailActivity.java"
+            line="105"
+            column="27"
+            startOffset="3936"
+            endLine="105"
+            endColumn="86"
+            endOffset="3995"/>
+    </incident>
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The color &quot;background_dark&quot; in values-night has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement=""
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-night/colors.xml"
+                startOffset="243"
+                endOffset="288"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-night/colors.xml"
+            line="7"
+            column="12"
+            startOffset="250"
+            endLine="7"
+            endColumn="34"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="MissingDefaultResource"
+        severity="fatal"
+        message="The color &quot;surface_dark&quot; in values-night has no declaration in the base `values` folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier">
+        <fix-replace
+            description="Remove resource override"
+            replacement=""
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-night/colors.xml"
+                startOffset="294"
+                endOffset="336"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-night/colors.xml"
+            line="8"
+            column="12"
+            startOffset="301"
+            endLine="8"
+            endColumn="31"
+            endOffset="320"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="14"
+            column="9"
+            startOffset="287"
+            endLine="14"
+            endColumn="21"
+            endOffset="299"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.16.0">
+        <fix-replace
+            description="Change to 1.16.0"
+            family="Update versions"
+            oldString="1.10.1"
+            replacement="1.16.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="50"
+            column="20"
+            startOffset="1178"
+            endLine="50"
+            endColumn="51"
+            endOffset="1209"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <fix-replace
+            description="Change to 1.7.0"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="51"
+            column="20"
+            startOffset="1229"
+            endLine="51"
+            endColumn="56"
+            endOffset="1265"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.12.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="52"
+            column="20"
+            startOffset="1285"
+            endLine="52"
+            endColumn="65"
+            endOffset="1330"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="53"
+            column="20"
+            startOffset="1350"
+            endLine="53"
+            endColumn="70"
+            endOffset="1400"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.1">
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="56"
+            column="20"
+            startOffset="1448"
+            endLine="56"
+            endColumn="62"
+            endOffset="1490"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.7.1">
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="58"
+            column="20"
+            startOffset="1578"
+            endLine="58"
+            endColumn="58"
+            endOffset="1616"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel than 2.6.1 is available: 2.9.0">
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="61"
+            column="20"
+            startOffset="1669"
+            endLine="61"
+            endColumn="79"
+            endOffset="1728"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata than 2.6.1 is available: 2.9.0">
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="62"
+            column="20"
+            startOffset="1748"
+            endLine="62"
+            endColumn="78"
+            endOffset="1806"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-common-java8 than 2.6.1 is available: 2.9.0">
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="63"
+            column="20"
+            startOffset="1826"
+            endLine="63"
+            endColumn="82"
+            endOffset="1888"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime than 2.6.1 is available: 2.9.0">
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="64"
+            column="20"
+            startOffset="1908"
+            endLine="64"
+            endColumn="77"
+            endOffset="1965"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.3.0 is available: 1.4.0">
+        <fix-replace
+            description="Change to 1.4.0"
+            family="Update versions"
+            oldString="1.3.0"
+            replacement="1.4.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="67"
+            column="20"
+            startOffset="2010"
+            endLine="67"
+            endColumn="62"
+            endOffset="2052"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.2.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="85"
+            column="31"
+            startOffset="2669"
+            endLine="85"
+            endColumn="62"
+            endOffset="2700"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1">
+        <fix-replace
+            description="Change to 3.6.1"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.6.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="86"
+            column="31"
+            startOffset="2731"
+            endLine="86"
+            endColumn="75"
+            endOffset="2775"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-bom than 32.7.0 is available: 33.14.0">
+        <fix-replace
+            description="Change to 33.14.0"
+            family="Update versions"
+            oldString="32.7.0"
+            replacement="33.14.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="89"
+            column="20"
+            startOffset="2812"
+            endLine="89"
+            endColumn="71"
+            endOffset="2863"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-analytics than 21.5.0 is available: 22.4.0">
+        <fix-replace
+            description="Change to 22.4.0"
+            family="Update versions"
+            oldString="21.5.0"
+            replacement="22.4.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="90"
+            column="20"
+            startOffset="2883"
+            endLine="90"
+            endColumn="67"
+            endOffset="2930"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-auth than 22.3.1 is available: 23.2.1">
+        <fix-replace
+            description="Change to 23.2.1"
+            family="Update versions"
+            oldString="22.3.1"
+            replacement="23.2.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="91"
+            column="20"
+            startOffset="2950"
+            endLine="91"
+            endColumn="62"
+            endOffset="2992"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-firestore than 24.10.1 is available: 25.1.4">
+        <fix-replace
+            description="Change to 25.1.4"
+            family="Update versions"
+            oldString="24.10.1"
+            replacement="25.1.4"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="92"
+            column="20"
+            startOffset="3012"
+            endLine="92"
+            endColumn="68"
+            endOffset="3060"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.firebase:firebase-storage than 20.3.0 is available: 21.0.2">
+        <fix-replace
+            description="Change to 21.0.2"
+            family="Update versions"
+            oldString="20.3.0"
+            replacement="21.0.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="93"
+            column="20"
+            startOffset="3080"
+            endLine="93"
+            endColumn="65"
+            endOffset="3125"/>
+    </incident>
+
+    <incident
+        id="UseAppTint"
+        severity="error"
+        message="Must use `app:tint` instead of `android:tint`">
+        <fix-composite
+            description="Set tint=&quot;@android:color/holo_green_dark&quot; and Delete tint">
+            <fix-attribute
+                description="Set tint=&quot;@android:color/holo_green_dark&quot;"
+                namespace="http://schemas.android.com/apk/res-auto"
+                attribute="tint"
+                value="@android:color/holo_green_dark"/>
+            <fix-attribute
+                description="Delete tint"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="tint"/>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_order_confirmation.xml"
+            line="36"
+            column="13"
+            startOffset="1426"
+            endLine="36"
+            endColumn="58"
+            endOffset="1471"/>
+    </incident>
+
+    <incident
+        id="StringFormatMatches"
+        severity="error"
+        message="Inconsistent formatting types for argument #1 in format string `product_price` (&apos;%1$s&apos;): Found both &apos;`s`&apos; here and &apos;`f`&apos; in values/strings.xml">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-tr/strings.xml"
+            line="12"
+            column="41"
+            startOffset="422"
+            endLine="12"
+            endColumn="45"
+            endOffset="426"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="68"
+            column="5"
+            startOffset="3077"
+            endLine="68"
+            endColumn="55"
+            endOffset="3127"
+            message="Conflicting argument type (`f&apos;) here"/>
+    </incident>
+
+    <incident
+        id="StringFormatMatches"
+        severity="error"
+        message="Inconsistent formatting types for argument #1 in format string `cart_total` (&apos;%1$s&apos;): Found both &apos;`s`&apos; here and &apos;`f`&apos; in values/strings.xml">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-tr/strings.xml"
+            line="19"
+            column="39"
+            startOffset="718"
+            endLine="19"
+            endColumn="43"
+            endOffset="722"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="38"
+            column="5"
+            startOffset="1592"
+            endLine="38"
+            endColumn="52"
+            endOffset="1639"
+            message="Conflicting argument type (`f&apos;) here"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;login&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="6"
+            column="13"
+            startOffset="153"
+            endLine="6"
+            endColumn="25"
+            endOffset="165"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;register&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="7"
+            column="13"
+            startOffset="194"
+            endLine="7"
+            endColumn="28"
+            endOffset="209"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;email&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="8"
+            column="13"
+            startOffset="241"
+            endLine="8"
+            endColumn="25"
+            endOffset="253"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;password&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="9"
+            column="13"
+            startOffset="282"
+            endLine="9"
+            endColumn="28"
+            endOffset="297"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;confirm_password&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="10"
+            column="13"
+            startOffset="329"
+            endLine="10"
+            endColumn="36"
+            endOffset="352"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;forgot_password&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="11"
+            column="13"
+            startOffset="392"
+            endLine="11"
+            endColumn="35"
+            endOffset="414"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;dont_have_account&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="12"
+            column="13"
+            startOffset="454"
+            endLine="12"
+            endColumn="37"
+            endOffset="478"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;already_have_account&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="13"
+            column="13"
+            startOffset="525"
+            endLine="13"
+            endColumn="40"
+            endOffset="552"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;menu_logout&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="20"
+            column="13"
+            startOffset="824"
+            endLine="20"
+            endColumn="31"
+            endOffset="842"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;menu_admin&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="21"
+            column="13"
+            startOffset="872"
+            endLine="21"
+            endColumn="30"
+            endOffset="889"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;menu_settings&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="22"
+            column="13"
+            startOffset="924"
+            endLine="22"
+            endColumn="33"
+            endOffset="944"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;buy_now&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="25"
+            column="13"
+            startOffset="1004"
+            endLine="25"
+            endColumn="27"
+            endOffset="1018"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;product_details&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="26"
+            column="13"
+            startOffset="1049"
+            endLine="26"
+            endColumn="35"
+            endOffset="1071"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;price&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="27"
+            column="13"
+            startOffset="1110"
+            endLine="27"
+            endColumn="25"
+            endOffset="1122"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;stock&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="28"
+            column="13"
+            startOffset="1151"
+            endLine="28"
+            endColumn="25"
+            endOffset="1163"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;description&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="29"
+            column="13"
+            startOffset="1196"
+            endLine="29"
+            endColumn="31"
+            endOffset="1214"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;category&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="33"
+            column="13"
+            startOffset="1426"
+            endLine="33"
+            endColumn="28"
+            endOffset="1441"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;cart&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="36"
+            column="13"
+            startOffset="1502"
+            endLine="36"
+            endColumn="24"
+            endOffset="1513"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;empty_cart&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="37"
+            column="13"
+            startOffset="1541"
+            endLine="37"
+            endColumn="30"
+            endOffset="1558"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;remove_from_cart&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="41"
+            column="13"
+            startOffset="1753"
+            endLine="41"
+            endColumn="36"
+            endOffset="1776"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;total_price&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="42"
+            column="13"
+            startOffset="1816"
+            endLine="42"
+            endColumn="31"
+            endOffset="1834"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;decrease_quantity&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="43"
+            column="13"
+            startOffset="1870"
+            endLine="43"
+            endColumn="37"
+            endOffset="1894"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;increase_quantity&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="44"
+            column="13"
+            startOffset="1935"
+            endLine="44"
+            endColumn="37"
+            endOffset="1959"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;shipping_info&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="47"
+            column="13"
+            startOffset="2029"
+            endLine="47"
+            endColumn="33"
+            endOffset="2049"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;shipping_address&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="48"
+            column="13"
+            startOffset="2093"
+            endLine="48"
+            endColumn="36"
+            endOffset="2116"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;payment_info&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="49"
+            column="13"
+            startOffset="2156"
+            endLine="49"
+            endColumn="32"
+            endOffset="2175"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;payment_method&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="50"
+            column="13"
+            startOffset="2218"
+            endLine="50"
+            endColumn="34"
+            endOffset="2239"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;order_summary&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="51"
+            column="13"
+            startOffset="2277"
+            endLine="51"
+            endColumn="33"
+            endOffset="2297"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;place_order&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="52"
+            column="13"
+            startOffset="2334"
+            endLine="52"
+            endColumn="31"
+            endOffset="2352"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;order_success&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="55"
+            column="13"
+            startOffset="2426"
+            endLine="55"
+            endColumn="33"
+            endOffset="2446"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;order_confirmed&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="56"
+            column="13"
+            startOffset="2509"
+            endLine="56"
+            endColumn="35"
+            endOffset="2531"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;order_number&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="57"
+            column="13"
+            startOffset="2570"
+            endLine="57"
+            endColumn="32"
+            endOffset="2589"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;order_date&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="58"
+            column="13"
+            startOffset="2622"
+            endLine="58"
+            endColumn="30"
+            endOffset="2639"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;order_status&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="59"
+            column="13"
+            startOffset="2677"
+            endLine="59"
+            endColumn="32"
+            endOffset="2696"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;order_total&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="60"
+            column="13"
+            startOffset="2730"
+            endLine="60"
+            endColumn="31"
+            endOffset="2748"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;admin_panel&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="63"
+            column="13"
+            startOffset="2810"
+            endLine="63"
+            endColumn="31"
+            endOffset="2828"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;add_product&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="64"
+            column="13"
+            startOffset="2863"
+            endLine="64"
+            endColumn="31"
+            endOffset="2881"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;edit_product&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="65"
+            column="13"
+            startOffset="2916"
+            endLine="65"
+            endColumn="32"
+            endOffset="2935"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;delete_product&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="66"
+            column="13"
+            startOffset="2971"
+            endLine="66"
+            endColumn="34"
+            endOffset="2992"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;product_name&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="67"
+            column="13"
+            startOffset="3030"
+            endLine="67"
+            endColumn="32"
+            endOffset="3049"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;product_stock&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="69"
+            column="13"
+            startOffset="3141"
+            endLine="69"
+            endColumn="33"
+            endOffset="3161"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;product_category&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="70"
+            column="13"
+            startOffset="3194"
+            endLine="70"
+            endColumn="36"
+            endOffset="3217"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;product_image&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="71"
+            column="13"
+            startOffset="3249"
+            endLine="71"
+            endColumn="33"
+            endOffset="3269"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;user_panel&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="74"
+            column="13"
+            startOffset="3384"
+            endLine="74"
+            endColumn="30"
+            endOffset="3401"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;error_required&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="77"
+            column="13"
+            startOffset="3464"
+            endLine="77"
+            endColumn="34"
+            endOffset="3485"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;error_invalid_email&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="78"
+            column="13"
+            startOffset="3531"
+            endLine="78"
+            endColumn="39"
+            endOffset="3557"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;error_invalid_password&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="79"
+            column="13"
+            startOffset="3602"
+            endLine="79"
+            endColumn="42"
+            endOffset="3631"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;error_passwords_dont_match&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="80"
+            column="13"
+            startOffset="3693"
+            endLine="80"
+            endColumn="46"
+            endOffset="3726"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;error_login&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="81"
+            column="13"
+            startOffset="3772"
+            endLine="81"
+            endColumn="31"
+            endOffset="3790"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;error_register&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="82"
+            column="13"
+            startOffset="3826"
+            endLine="82"
+            endColumn="34"
+            endOffset="3847"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;error_add_to_cart&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="83"
+            column="13"
+            startOffset="3890"
+            endLine="83"
+            endColumn="37"
+            endOffset="3914"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;error_checkout&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="84"
+            column="13"
+            startOffset="3959"
+            endLine="84"
+            endColumn="34"
+            endOffset="3980"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;success_add_to_cart&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="85"
+            column="13"
+            startOffset="4019"
+            endLine="85"
+            endColumn="39"
+            endOffset="4045"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;success_checkout&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="86"
+            column="13"
+            startOffset="4090"
+            endLine="86"
+            endColumn="36"
+            endOffset="4113"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;success_saved&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="87"
+            column="13"
+            startOffset="4162"
+            endLine="87"
+            endColumn="33"
+            endOffset="4182"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;success_deleted&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="88"
+            column="13"
+            startOffset="4224"
+            endLine="88"
+            endColumn="35"
+            endOffset="4246"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;profile&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="96"
+            column="13"
+            startOffset="4566"
+            endLine="96"
+            endColumn="27"
+            endOffset="4580"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;action_logout&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="104"
+            column="13"
+            startOffset="4854"
+            endLine="104"
+            endColumn="33"
+            endOffset="4874"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;search&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="105"
+            column="13"
+            startOffset="4904"
+            endLine="105"
+            endColumn="26"
+            endOffset="4917"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;about&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="106"
+            column="13"
+            startOffset="4947"
+            endLine="106"
+            endColumn="25"
+            endOffset="4959"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;help&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="107"
+            column="13"
+            startOffset="4988"
+            endLine="107"
+            endColumn="24"
+            endOffset="4999"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;contact&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="108"
+            column="13"
+            startOffset="5027"
+            endLine="108"
+            endColumn="27"
+            endOffset="5041"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;terms&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="109"
+            column="13"
+            startOffset="5072"
+            endLine="109"
+            endColumn="25"
+            endOffset="5084"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;privacy&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="110"
+            column="13"
+            startOffset="5124"
+            endLine="110"
+            endColumn="27"
+            endOffset="5138"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;version&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="111"
+            column="13"
+            startOffset="5176"
+            endLine="111"
+            endColumn="27"
+            endOffset="5190"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;copyright&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="112"
+            column="13"
+            startOffset="5224"
+            endLine="112"
+            endColumn="29"
+            endOffset="5240"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;ok&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="113"
+            column="13"
+            startOffset="5305"
+            endLine="113"
+            endColumn="22"
+            endOffset="5314"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;yes&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="114"
+            column="13"
+            startOffset="5340"
+            endLine="114"
+            endColumn="23"
+            endOffset="5350"/>
+    </incident>
+
+    <incident
+        id="MissingTranslation"
+        severity="error"
+        message="&quot;no&quot; is not translated in &quot;tr&quot; (Turkish)">
+        <fix-attribute
+            description="Mark non-translatable"
+            attribute="translatable"
+            value="false"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="115"
+            column="13"
+            startOffset="5377"
+            endLine="115"
+            endColumn="22"
+            endOffset="5386"/>
+    </incident>
+
+    <incident
+        id="ExtraTranslation"
+        severity="fatal"
+        message="&quot;cart_empty&quot; is translated here but not found in default locale">
+        <fix-replace
+            description="Remove translation"
+            replacement=""
+            priority="0">
+            <range
+                file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-tr/strings.xml"
+                startOffset="630"
+                endOffset="678"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-tr/strings.xml"
+            line="18"
+            column="13"
+            startOffset="638"
+            endLine="18"
+            endColumn="30"
+            endOffset="655"/>
+    </incident>
+
+    <incident
+        id="StringFormatCount"
+        severity="warning"
+        message="Inconsistent number of arguments in formatting string `quantity`; found both 0 here and 1 in values/strings.xml">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-tr/strings.xml"
+            line="15"
+            column="5"
+            startOffset="562"
+            endLine="15"
+            endColumn="42"
+            endOffset="599"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="32"
+            column="5"
+            startOffset="1367"
+            endLine="32"
+            endColumn="50"
+            endOffset="1412"
+            message="Conflicting number of arguments (1) here"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/adapters/CartAdapter.java"
+            line="33"
+            column="9"
+            startOffset="1056"
+            endLine="33"
+            endColumn="31"
+            endOffset="1078"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/adapters/ProductAdapter.java"
+            line="68"
+            column="9"
+            startOffset="2155"
+            endLine="68"
+            endColumn="31"
+            endOffset="2177"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/shoppingapp/adapters/ProductAdapter.java"
+            line="73"
+            column="9"
+            startOffset="2291"
+            endLine="73"
+            endColumn="31"
+            endOffset="2313"/>
+    </incident>
+
+    <incident
+        id="VectorPath"
+        severity="warning"
+        message="Very long vector path (904 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_settings.xml"
+            line="9"
+            column="27"
+            startOffset="314"
+            endLine="9"
+            endColumn="931"
+            endOffset="1218"/>
+    </incident>
+
+    <incident
+        id="TypographyEllipsis"
+        severity="warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?">
+        <fix-replace
+            description="Replace with …"
+            oldString="..."
+            replacement="…"
+            priority="0"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values-tr/strings.xml"
+            line="31"
+            column="28"
+            startOffset="1176"
+            endLine="31"
+            endColumn="41"
+            endOffset="1189"/>
+    </incident>
+
+    <incident
+        id="TypographyEllipsis"
+        severity="warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?">
+        <fix-replace
+            description="Replace with …"
+            oldString="..."
+            replacement="…"
+            priority="0"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="99"
+            column="28"
+            startOffset="4653"
+            endLine="99"
+            endColumn="38"
+            endOffset="4663"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="5"
+            endColumn="17"
+            endOffset="271"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive roundIcon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="5"
+            endColumn="17"
+            endOffset="271"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/product1.webp` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/product1.webp"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/product2.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/product2.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/product3.jpg` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/product3.jpg"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/smartwatch.jpg` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/smartwatch.jpg"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+                    startOffset="2215"
+                    endOffset="3203"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+                    startOffset="2406"
+                    endOffset="2779"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+                    startOffset="2799"
+                    endOffset="3172"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+            line="64"
+            column="18"
+            startOffset="2407"
+            endLine="64"
+            endColumn="24"
+            endOffset="2413"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+                    startOffset="2215"
+                    endOffset="3203"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+                    startOffset="2406"
+                    endOffset="2779"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+                    startOffset="2799"
+                    endOffset="3172"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+            line="73"
+            column="18"
+            startOffset="2800"
+            endLine="73"
+            endColumn="24"
+            endOffset="2806"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="17"
+            column="6"
+            startOffset="552"
+            endLine="17"
+            endColumn="14"
+            endOffset="560"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="25"
+            column="6"
+            startOffset="823"
+            endLine="25"
+            endColumn="14"
+            endOffset="831"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="33"
+            column="6"
+            startOffset="1089"
+            endLine="33"
+            endColumn="14"
+            endOffset="1097"/>
+    </incident>
+
+    <incident
+        id="KtxExtensionAvailable"
+        severity="informational"
+        message="Add suffix `-ktx` to enable the Kotlin extensions for this library">
+        <fix-replace
+            description="Replace with KTX dependency"
+            oldString="androidx.lifecycle:lifecycle-viewmodel"
+            replacement="androidx.lifecycle:lifecycle-viewmodel-ktx"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="61"
+            column="20"
+            startOffset="1669"
+            endLine="61"
+            endColumn="79"
+            endOffset="1728"/>
+    </incident>
+
+    <incident
+        id="KtxExtensionAvailable"
+        severity="informational"
+        message="Add suffix `-ktx` to enable the Kotlin extensions for this library">
+        <fix-replace
+            description="Replace with KTX dependency"
+            oldString="androidx.lifecycle:lifecycle-livedata"
+            replacement="androidx.lifecycle:lifecycle-livedata-ktx"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="62"
+            column="20"
+            startOffset="1748"
+            endLine="62"
+            endColumn="78"
+            endOffset="1806"/>
+    </incident>
+
+    <incident
+        id="KtxExtensionAvailable"
+        severity="informational"
+        message="Add suffix `-ktx` to enable the Kotlin extensions for this library">
+        <fix-replace
+            description="Replace with KTX dependency"
+            oldString="androidx.lifecycle:lifecycle-runtime"
+            replacement="androidx.lifecycle:lifecycle-runtime-ktx"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="64"
+            column="20"
+            startOffset="1908"
+            endLine="64"
+            endColumn="77"
+            endOffset="1965"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                point="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="10"
+            column="6"
+            startOffset="356"
+            endLine="10"
+            endColumn="15"
+            endOffset="365"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                point="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_cart.xml"
+            line="16"
+            column="10"
+            startOffset="583"
+            endLine="16"
+            endColumn="19"
+            endOffset="592"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                point="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_cart.xml"
+            line="82"
+            column="10"
+            startOffset="3284"
+            endLine="82"
+            endColumn="21"
+            endOffset="3295"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;افزودن محصول جدید&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_add_edit_product.xml"
+            line="16"
+            column="13"
+            startOffset="570"
+            endLine="16"
+            endColumn="45"
+            endOffset="602"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;تصویر محصول&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_add_edit_product.xml"
+            line="28"
+            column="13"
+            startOffset="1047"
+            endLine="28"
+            endColumn="53"
+            endOffset="1087"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;انتخاب تصویر&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_add_edit_product.xml"
+            line="35"
+            column="13"
+            startOffset="1318"
+            endLine="35"
+            endColumn="40"
+            endOffset="1345"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;نام محصول&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_add_edit_product.xml"
+            line="50"
+            column="17"
+            startOffset="2022"
+            endLine="50"
+            endColumn="41"
+            endOffset="2046"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;توضیحات محصول&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_add_edit_product.xml"
+            line="65"
+            column="17"
+            startOffset="2752"
+            endLine="65"
+            endColumn="45"
+            endOffset="2780"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;قیمت (تومان)&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_add_edit_product.xml"
+            line="81"
+            column="17"
+            startOffset="3521"
+            endLine="81"
+            endColumn="44"
+            endOffset="3548"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;موجودی&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_add_edit_product.xml"
+            line="96"
+            column="17"
+            startOffset="4251"
+            endLine="96"
+            endColumn="38"
+            endOffset="4272"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;دسته‌بندی&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_add_edit_product.xml"
+            line="111"
+            column="17"
+            startOffset="4975"
+            endLine="111"
+            endColumn="41"
+            endOffset="4999"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ذخیره&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_add_edit_product.xml"
+            line="119"
+            column="13"
+            startOffset="5283"
+            endLine="119"
+            endColumn="33"
+            endOffset="5303"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;تنظیم ادمین&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_admin_setup.xml"
+            line="13"
+            column="9"
+            startOffset="465"
+            endLine="13"
+            endColumn="35"
+            endOffset="491"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ایمیل ادمین&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_admin_setup.xml"
+            line="28"
+            column="13"
+            startOffset="1106"
+            endLine="28"
+            endColumn="39"
+            endOffset="1132"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ذخیره&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_admin_setup.xml"
+            line="36"
+            column="9"
+            startOffset="1400"
+            endLine="36"
+            endColumn="29"
+            endOffset="1420"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;پرداخت&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_cart.xml"
+            line="51"
+            column="13"
+            startOffset="2135"
+            endLine="51"
+            endColumn="34"
+            endOffset="2156"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;اطلاعات تحویل گیرنده&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_checkout.xml"
+            line="36"
+            column="17"
+            startOffset="1399"
+            endLine="36"
+            endColumn="52"
+            endOffset="1434"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;نام و نام خانوادگی&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_checkout.xml"
+            line="46"
+            column="17"
+            startOffset="1876"
+            endLine="46"
+            endColumn="50"
+            endOffset="1909"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;آدرس&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_checkout.xml"
+            line="60"
+            column="17"
+            startOffset="2527"
+            endLine="60"
+            endColumn="36"
+            endOffset="2546"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;شماره تماس&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_checkout.xml"
+            line="75"
+            column="17"
+            startOffset="3212"
+            endLine="75"
+            endColumn="42"
+            endOffset="3237"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;پرداخت&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_checkout.xml"
+            line="106"
+            column="17"
+            startOffset="4496"
+            endLine="106"
+            endColumn="38"
+            endOffset="4517"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;تأیید سفارش&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_order_confirmation.xml"
+            line="37"
+            column="13"
+            startOffset="1485"
+            endLine="37"
+            endColumn="53"
+            endOffset="1525"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;سفارش شما با موفقیت ثبت شد&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_order_confirmation.xml"
+            line="42"
+            column="13"
+            startOffset="1661"
+            endLine="42"
+            endColumn="54"
+            endOffset="1702"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ادامه خرید&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_order_confirmation.xml"
+            line="77"
+            column="13"
+            startOffset="3020"
+            endLine="77"
+            endColumn="38"
+            endOffset="3045"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;پرداخت&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_payment.xml"
+            line="41"
+            column="13"
+            startOffset="1598"
+            endLine="41"
+            endColumn="34"
+            endOffset="1619"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;تصویر محصول&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_product_detail.xml"
+            line="36"
+            column="17"
+            startOffset="1452"
+            endLine="36"
+            endColumn="57"
+            endOffset="1492"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;توضیحات محصول&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_product_detail.xml"
+            line="72"
+            column="17"
+            startOffset="2901"
+            endLine="72"
+            endColumn="45"
+            endOffset="2929"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;افزودن به سبد خرید&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_product_detail.xml"
+            line="95"
+            column="9"
+            startOffset="3774"
+            endLine="95"
+            endColumn="56"
+            endOffset="3821"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;نام&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="30"
+            column="13"
+            startOffset="1188"
+            endLine="30"
+            endColumn="31"
+            endOffset="1206"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ایمیل&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_profile.xml"
+            line="52"
+            column="13"
+            startOffset="1999"
+            endLine="52"
+            endColumn="33"
+            endOffset="2019"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ثبت‌نام&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="12"
+            column="9"
+            startOffset="408"
+            endLine="12"
+            endColumn="31"
+            endOffset="430"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ایمیل&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="21"
+            column="9"
+            startOffset="702"
+            endLine="21"
+            endColumn="29"
+            endOffset="722"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;نام&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="29"
+            column="9"
+            startOffset="972"
+            endLine="29"
+            endColumn="27"
+            endOffset="990"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;رمز عبور&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="37"
+            column="9"
+            startOffset="1242"
+            endLine="37"
+            endColumn="32"
+            endOffset="1265"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ثبت‌نام&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="45"
+            column="9"
+            startOffset="1511"
+            endLine="45"
+            endColumn="31"
+            endOffset="1533"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;قبلا ثبت‌نام کرده‌اید؟ ورود&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_register.xml"
+            line="52"
+            column="9"
+            startOffset="1738"
+            endLine="52"
+            endColumn="51"
+            endOffset="1780"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Home&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_nav_menu.xml"
+            line="6"
+            column="9"
+            startOffset="211"
+            endLine="6"
+            endColumn="29"
+            endOffset="231"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Categories&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_nav_menu.xml"
+            line="11"
+            column="9"
+            startOffset="354"
+            endLine="11"
+            endColumn="35"
+            endOffset="380"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Cart&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_nav_menu.xml"
+            line="16"
+            column="9"
+            startOffset="491"
+            endLine="16"
+            endColumn="29"
+            endOffset="511"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Profile&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_nav_menu.xml"
+            line="21"
+            column="9"
+            startOffset="628"
+            endLine="21"
+            endColumn="32"
+            endOffset="651"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;تصویر محصول&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+            line="21"
+            column="13"
+            startOffset="767"
+            endLine="21"
+            endColumn="53"
+            endOffset="807"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;ویرایش&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+            line="69"
+            column="21"
+            startOffset="2638"
+            endLine="69"
+            endColumn="42"
+            endOffset="2659"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;حذف&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_admin_product.xml"
+            line="78"
+            column="21"
+            startOffset="3033"
+            endLine="78"
+            endColumn="39"
+            endOffset="3051"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;-&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_cart.xml"
+            line="62"
+            column="17"
+            startOffset="2587"
+            endLine="62"
+            endColumn="33"
+            endOffset="2603"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;+&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_cart.xml"
+            line="77"
+            column="17"
+            startOffset="3184"
+            endLine="77"
+            endColumn="33"
+            endOffset="3200"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;تصویر محصول&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_product.xml"
+            line="21"
+            column="13"
+            startOffset="758"
+            endLine="21"
+            endColumn="53"
+            endOffset="798"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Cart&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/main_menu.xml"
+            line="8"
+            column="9"
+            startOffset="270"
+            endLine="8"
+            endColumn="29"
+            endOffset="290"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Profile&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/main_menu.xml"
+            line="14"
+            column="9"
+            startOffset="438"
+            endLine="14"
+            endColumn="32"
+            endOffset="461"/>
+    </incident>
+
+</incidents>

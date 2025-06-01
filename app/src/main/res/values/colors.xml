@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light theme colors -->
+    <color name="primary">#FF6200EE</color>
+    <color name="primary_dark">#FF3700B3</color>
+    <color name="secondary">#FF03DAC5</color>
+    <color name="secondary_dark">#FF018786</color>
+    
+    <color name="background">#FFFFFFFF</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="on_surface">#000000</color>
+    
+    <color name="error">#FFB00020</color>
+    <color name="on_error">#FFFFFFFF</color>
+    
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#99000000</color>
+    
+    <!-- Common colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF757575</color>
+    <color name="light_gray">#FFEEEEEE</color>
+    
+    <!-- Status colors -->
+    <color name="success">#FF4CAF50</color>
+    <color name="warning">#FFFFC107</color>
+    <color name="info">#FF2196F3</color>
+    
+    <!-- Material Design colors -->
+    <color name="red">#FFF44336</color>
+    <color name="pink">#FFE91E63</color>
+    <color name="purple">#FF9C27B0</color>
+    <color name="deep_purple">#FF673AB7</color>
+    <color name="indigo">#FF3F51B5</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="light_blue">#FF03A9F4</color>
+    <color name="cyan">#FF00BCD4</color>
+    <color name="teal">#FF009688</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="light_green">#FF8BC34A</color>
+    <color name="lime">#FFCDDC39</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="amber">#FFFFC107</color>
+    <color name="orange">#FFFF9800</color>
+    <color name="deep_orange">#FFFF5722</color>
+    <color name="brown">#FF795548</color>
+    <color name="grey">#FF9E9E9E</color>
+    <color name="blue_grey">#FF607D8B</color>
+    
+    <!-- Component colors -->
+    <color name="ripple_color">#33000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E0E0E0</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="placeholder">#BDBDBD</color>
+    <color name="success_background">#E8F5E9</color>
+    
+    <!-- Legacy colors -->
+    <color name="colorPrimary">@color/primary</color>
+    <color name="colorPrimaryDark">@color/primary_dark</color>
+    <color name="colorAccent">@color/secondary</color>
+
+    <!-- Material Design default colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Launcher icon colors -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources> 

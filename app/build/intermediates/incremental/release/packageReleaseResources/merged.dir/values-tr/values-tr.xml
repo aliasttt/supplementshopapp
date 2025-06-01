@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_to_cart">Sepete Ekle</string>
+    <string name="app_name">Alışveriş Uygulaması</string>
+    <string name="cancel">İptal</string>
+    <string name="cart_empty">Sepetiniz boş</string>
+    <string name="cart_total">Toplam: %1$s TL</string>
+    <string name="checkout">Ödemeye Geç</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="error">Hata</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="menu_cart">Sepetim</string>
+    <string name="menu_categories">Kategoriler</string>
+    <string name="menu_home">Ana Sayfa</string>
+    <string name="menu_profile">Profilim</string>
+    <string name="my_orders">Siparişlerim</string>
+    <string name="product_description">Ürün Açıklaması</string>
+    <string name="product_price">Fiyat: %1$s TL</string>
+    <string name="profile_title">Profilim</string>
+    <string name="quantity">Adet</string>
+    <string name="remove_item">Ürünü Kaldır</string>
+    <string name="save">Kaydet</string>
+    <string name="settings">Ayarlar</string>
+    <string name="success">Başarılı</string>
+</resources>

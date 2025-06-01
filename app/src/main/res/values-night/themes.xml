@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme for night mode -->
+    <style name="Theme.ShoppingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Disable the default ActionBar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/white</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/error_dark</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+    </style>
+
+    <!-- Text Appearances -->
+    <style name="TextAppearance.ShoppingApp.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">96sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">60sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.ShoppingApp.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/iran_sans</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources> 

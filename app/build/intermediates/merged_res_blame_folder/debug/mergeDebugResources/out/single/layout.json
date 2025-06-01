@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_admin_product_list.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_admin_product_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\item_product.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_order_confirmation.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_order_confirmation.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\item_order.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_admin_dashboard.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\item_user.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_admin_setup.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_admin_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_add_edit_product.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_add_edit_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_cart.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_admin_login.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_admin_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_payment.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\item_admin_product.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\item_admin_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_checkout.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_checkout.xml"
+    },
+    {
+        "merged": "com.example.shoppingapp-mergeDebugResources-45:/layout/activity_admin_dashboard.xml",
+        "source": "com.example.shoppingapp-main-48:/layout/activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\item_cart.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_orders.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_admin_panel.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_admin_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_product_detail.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-mergeDebugResources-45:\\layout\\activity_admin_user_management.xml",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\8.9\\com.example.shoppingapp-main-48:\\layout\\activity_admin_user_management.xml"
+    }
+]
